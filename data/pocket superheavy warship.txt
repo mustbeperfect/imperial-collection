@@ -1,0 +1,195 @@
+ship "CF: Dulle Griet Class"
+	"display name" "Dulle Griet Class"
+	plural "Dulle Griet Class"
+	sprite "ship/mgf navy fastbattleship"
+	thumbnail "thumbnail/mgf navy fastbattleship thumb"
+	attributes
+		category "Pocket Superheavy Warship"
+		"cost" 22200000
+		"shields" 38150
+		"hull" 14800
+		"required crew" 260
+		"bunks" 360
+		"mass" 4807
+		"drag" 37.6
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 20
+		"outfit space" 4180
+		"weapon capacity" 2970
+		"engine capacity" 310
+		"vertical launching support" 8
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Tier 3 Anti-Missile"
+		"V2000 Basilisk Shell" 450
+		"V2000 Basilisk Turret" 5
+		"Finisher Maegrolain" 24
+		"Finisher Storage Tube" 10
+		"Finisher Torpedo" 1640
+		"Spearfish Missile" 276
+		"Spearfish VLS Array" 23
+
+		"Blue Sun Reactor" 3
+		"Large Battery Module" 10
+		"Systems Core (Large)"
+
+		"A520 Atomic Thruster"
+		"A860 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Jump Drive"
+
+	turret -31 -229.5 "Tier 3 Anti-Missile"
+	turret 31 -229.5 "V2000 Basilisk Turret"
+	turret -31 -213.5 "V2000 Basilisk Turret"
+	turret 31 -213.5 "V2000 Basilisk Turret"
+	turret -31 -198 "V2000 Basilisk Turret"
+	turret 31 -198 "V2000 Basilisk Turret"
+	turret -31 -181 "Spearfish VLS Array"
+	turret 31 -181 "Spearfish VLS Array"
+	turret -26.5 -92 "Spearfish VLS Array"
+	turret 26.5 -92 "Spearfish VLS Array"
+	turret -26.5 -74.5 "Spearfish VLS Array"
+	turret 26.5 -74.5 "Spearfish VLS Array"
+	turret 37 -44.5 "Spearfish VLS Array"
+	turret -37 -44.5 "Spearfish VLS Array"
+	turret 37 -28.5 "Spearfish VLS Array"
+	turret -37 -28.5 "Spearfish VLS Array"
+	turret 37 -12.5 "Spearfish VLS Array"
+	turret -37 -12.5 "Spearfish VLS Array"
+	turret 29.5 73 "Spearfish VLS Array"
+	turret -29.5 73 "Spearfish VLS Array"
+	turret 29.5 88.5 "Spearfish VLS Array"
+	turret -29.5 88.5 "Spearfish VLS Array"
+	turret 29.5 104.5 "Spearfish VLS Array"
+	turret -29.5 104.5 "Spearfish VLS Array"
+	turret 0 351 "Spearfish VLS Array"
+	turret 0 -244.5 "Spearfish VLS Array"
+	turret 0 -190 "Spearfish VLS Array"
+	turret 0 -29 "Spearfish VLS Array"
+	turret 0 14.5 "Spearfish VLS Array"
+	gun -6 -338.5 "Finisher Maegrolain"
+	gun 6 -338.5 "Finisher Maegrolain"
+	gun -6 -333 "Finisher Maegrolain"
+	gun 6 -333 "Finisher Maegrolain"
+	gun -18 -333 "Finisher Maegrolain"
+	gun 18 -333 "Finisher Maegrolain"
+	gun -18 -339 "Finisher Maegrolain"
+	gun 18 -339 "Finisher Maegrolain"
+	gun 58 -109 "Finisher Maegrolain"
+	gun -58 -109 "Finisher Maegrolain"
+	gun 58 -109 "Finisher Maegrolain"
+	gun -58 -109 "Finisher Maegrolain"
+	gun 68.5 -109 "Finisher Maegrolain"
+	gun -68.5 -109 "Finisher Maegrolain"
+	gun 68.5 -109 "Finisher Maegrolain"
+	gun -68.5 -109 "Finisher Maegrolain"
+	gun 82.5 44 "Finisher Maegrolain"
+		angle 90
+	gun -82.5 44 "Finisher Maegrolain"
+		angle -90
+	gun 82.5 44 "Finisher Maegrolain"
+		angle 90
+	gun -82.5 44 "Finisher Maegrolain"
+		angle -90
+	gun 82.5 66 "Finisher Maegrolain"
+		angle 90
+	gun -82.5 66 "Finisher Maegrolain"
+		angle -90
+	gun 82.5 66 "Finisher Maegrolain"
+		angle 90
+	gun -82.5 66 "Finisher Maegrolain"
+		angle -90
+	engine 46.5 366
+	engine -46.5 366
+	engine -75 359
+		zoom .7
+	engine 75 359
+		zoom .7
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "This Dulle Griet was converted to be a pocket superheavy warship for the Lucerne and Claymore class. It's many gun ports make this an excellent misile platform while it's brother ship, the Grose Bosche, serves as a turret platform."
+
+ship "CF: Grose Bochse Class"
+	"display name" "Grose Bochse Class"
+	plural "Grose Bochse Class"
+	sprite "ship/mgf navy artillerybattleship"
+	thumbnail "thumbnail/mgf navy artillerybattleship thumb"
+	attributes
+		category "Pocket Superheavy Warship"
+		"cost" 22200000
+		"shields" 41750
+		"hull" 16200
+		"required crew" 220
+		"bunks" 330
+		"mass" 5685
+		"drag" 37.6
+		"heat dissipation" .42
+		"fuel capacity" 800
+		"cargo space" 20
+		"outfit space" 3780
+		"weapon capacity" 2980
+		"engine capacity" 310
+		"spinal mount" 1
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"EL-1388 Aphelion Turret" 11
+		"ExP252 Railcannon"
+		"Tier 3 Anti-Missile" 2
+		"UREB Turret" 8
+		"V85 Railgun Turret"
+
+		"Large Battery Module" 3
+		"Systems Core (Large)"
+		"Blue Sun Reactor" 3
+
+		`"Bufaer" Atomic Steering`
+		"A860 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Jump Drive"
+
+	gun 0 -349 "ExP252 Railcannon"
+	turret -18 -239.5 "Tier 3 Anti-Missile"
+	turret 18 -239.5 "Tier 3 Anti-Missile"
+	turret -18 -223 "EL-1388 Aphelion Turret"
+	turret 18 -223 "V85 Railgun Turret"
+	turret -32 -25 "UREB Turret"
+	turret 32 -25 "UREB Turret"
+	turret -32 -10 "UREB Turret"
+	turret 32 -10 "UREB Turret"
+	turret -32 6 "UREB Turret"
+	turret 32 6 "UREB Turret"
+	turret -32 57.5 "UREB Turret"
+	turret 32 57.5 "UREB Turret"
+	turret -32 73 "EL-1388 Aphelion Turret"
+	turret 32 73 "EL-1388 Aphelion Turret"
+	turret -32 89 "EL-1388 Aphelion Turret"
+	turret 32 89 "EL-1388 Aphelion Turret"
+	turret -19.5 283.5 "EL-1388 Aphelion Turret"
+	turret 19.5 283.5 "EL-1388 Aphelion Turret"
+	turret -19.5 300 "EL-1388 Aphelion Turret"
+	turret 19.5 300 "EL-1388 Aphelion Turret"
+	turret 0 -198 "EL-1388 Aphelion Turret"
+	turret 0 -58 "EL-1388 Aphelion Turret"
+	engine 46.5 366
+	engine -46.5 366
+	engine -75 359
+		zoom .7
+	engine 75 359
+		zoom .7
+	description "This Grose Bochse was heavily customized to be a pocket superheavy warship for the Lucerne and Claymore Class. This is a brother ship to the Dulle Griet, serving as a turret platform. "

@@ -1,0 +1,3 @@
+planet "Hermes"
+	add shipyard "Capital Fleet Shipyard"
+	add outfitter "Capital Fleet Outfitter"

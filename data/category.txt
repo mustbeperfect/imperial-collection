@@ -1,0 +1,7 @@
+category "ship"
+	"Pocket Superheavy Warship"
+	"Pocket Superheavy Freighter"
+
+category "bay type"
+	"Pocket Superheavy Warship"
+	"Pocket Superheavy Freighter"

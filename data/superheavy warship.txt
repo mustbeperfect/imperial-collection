@@ -1,0 +1,429 @@
+ship "CF: Lucerne Class"
+	plural "Lucerne Class"
+	sprite "ship/mgf navy supercarrier"
+	thumbnail "thumbnail/mgf navy supercarrier thumb"
+	attributes
+		category "Superheavy"
+		"cost" 1088700000
+		"shields" 633750
+		"hull" 245800
+		"hull repair rate" 1
+		"required crew" 1450
+		"bunks" 2200
+		"mass" 205685
+		"drag" 1540
+		"heat dissipation" .45
+		"fuel capacity" 2800
+		"cargo space" 1600
+		"outfit space" 13900
+		"weapon capacity" 8900
+		"engine capacity" 990
+		"vertical launching support" 12
+		"spinal mount" 1
+		"force protection" 100
+		"spearfish capacity" 120
+		"ramscoop" 30
+		"heat capacity" 120000
+		"active cooling" 250
+		"ion protection" 2
+		"scramble protection" 2
+		"ion resistance" .5
+		"scramble resistance" .5
+		"tactical scan power" 120
+		"outfit scan power" 240
+		"outfit scan efficiency" 230
+		"cargo scan power" 210
+		"cargo scan efficiency" 200
+		"hull repair multiplier" .1
+		"landing speed" .01
+		weapon
+			"blast radius" 3000
+			"shield damage" 8000
+			"hull damage" 5500
+			"hit force" 4500
+
+	outfits
+	    "J520 Quad Zhizhe Turret" 6
+		"Tier 3 Anti-Missile" 8
+		"Torandor Cannon Turret" 4
+		"UREB Turret" 34
+		"V47 Plasma-Railgun Turret" 2
+		"V85d Dual Railgun Turret" 4
+		"uL4 Ion Artillery Turret" 3
+
+		"IrdaSys Large XMAX Cinema"
+		"Elion Large Exotic Pool"
+
+		"Blue Sun Reactor" 15
+		"Large Battery Module" 10
+		"Systems Core (Large)" 15
+		"Plasmadyne Scoop"
+		"SCE-3 Radar Jammer"
+		"Scanning Module"
+		"Hai Octopus Jammer" 5
+		"Quantum Keystone"
+
+		"Finisher Maegrolain" 26
+		"Finisher Storage Tube" 30
+		"Finisher Torpedo" 2160
+
+		`"Bufaer" Atomic Steering`
+		"A860 Atomic Thruster" 5
+		"A865 Atomic Steering" 3
+		"Jump Drive"
+
+	gun 0 -1485 "Plasmadyne Scoop"
+	gun -96 -1352.5 "Finisher Maegrolain"
+	gun 96 -1352.5 "Finisher Maegrolain"
+	gun -96 -1352.5 "Finisher Maegrolain"
+	gun 96 -1352.5 "Finisher Maegrolain"
+	gun -271 -623 "Finisher Maegrolain"
+	gun 271 -623 "Finisher Maegrolain"
+	gun -271 -623 "Finisher Maegrolain"
+	gun 271 -623 "Finisher Maegrolain"
+	gun -271 -623 "Finisher Maegrolain"
+	gun 271 -623 "Finisher Maegrolain"
+	gun -339 -499 "Finisher Maegrolain"
+	gun 339 -499 "Finisher Maegrolain"
+	gun -339 -499 "Finisher Maegrolain"
+	gun 339 -499 "Finisher Maegrolain"
+	turret -109 -1062.5 "V85 Railgun Turret"
+	turret -109 -1062.5 "UREB Turret"
+	turret 109 -1062.5 "UREB Turret"
+	turret -109 -913 "Tier 3 Anti-Missile"
+	turret 109 -913 "Tier 3 Anti-Missile"
+	turret -109 -763.5 "Tier 3 Anti-Missile"
+	turret 109 -763.5 "Tier 3 Anti-Missile"
+	turret -207 -610 "Tier 3 Anti-Missile"
+	turret 207 -610 "Tier 3 Anti-Missile"
+	turret -232.5 -507.5 "Tier 3 Anti-Missile"
+	turret 232.5 -507.5 "Tier 3 Anti-Missile"
+	turret 0 -584.5 "V85d Dual Railgun Turret"
+	turret 0 -507.5 "V85d Dual Railgun Turret"
+	turret 0 -362.5 "J520 Quad Zhizhe Turret"
+	turret -147 247.5 "J520 Quad Zhizhe Turret"
+	turret 147 247.5 "Torandor Cannon Turret"
+	turret -138.5 452.5 "Torandor Cannon Turret"
+	turret 138.5 452.5 "V47 Plasma-Railgun Turret"
+	turret -126 354 "uL4 Ion Artillery Turret"
+	turret 126 354 "UREB Turret"
+	turret -109 1032.5 "UREB Turret"
+	turret 109 1032.5 "V47 Plasma-Railgun Turret"
+	turret -104.5 1135 "UREB Turret"
+	turret 104.5 1135 "UREB Turret"
+	turret -155.5 -635.5 "UREB Turret"
+	turret 155.5 -635.5 "UREB Turret"
+	turret -155.5 -589 "UREB Turret"
+	turret 155.5 -589 "UREB Turret"
+	turret -155.5 -554.5 "UREB Turret"
+	turret 155.5 -554.5 "UREB Turret"
+	turret -155.5 -516.5 "UREB Turret"
+	turret 155.5 -516.5 "UREB Turret"
+	turret -117.5 -405.5 "UREB Turret"
+	turret 117.5 -405.5 "UREB Turret"
+	turret -109 -350 "UREB Turret"
+	turret 109 -350 "UREB Turret"
+	turret -219.5 260.5 "UREB Turret"
+	turret 219.5 260.5 "UREB Turret"
+	turret -211 439.5 "UREB Turret"
+	turret 211 439.5 "UREB Turret"
+	turret -569.5 205 "UREB Turret"
+	turret 569.5 205 "UREB Turret"
+	turret -569.5 499 "UREB Turret"
+	turret 569.5 499 "UREB Turret"
+	turret -471.5 264.5 "UREB Turret"
+	turret 471.5 264.5 "UREB Turret"
+	turret -475.5 443.5 "UREB Turret"
+	turret 475.5 443.5 "UREB Turret"
+	turret -301 891.5 "UREB Turret"
+	turret 301 891.5 "UREB Turret"
+	turret -356.5 913 "UREB Turret"
+	turret 356.5 913 "UREB Turret"
+	turret -292.5 1130.5 "J520 Quad Zhizhe Turret"
+	turret 292.5 1130.5 "J520 Quad Zhizhe Turret"
+	turret -57.5 -311.5 "J520 Quad Zhizhe Turret"
+	turret 57.5 -311.5 "uL4 Ion Artillery Turret"
+	turret -57.5 -230.5 "uL4 Ion Artillery Turret"
+	turret 57.5 -230.5 "V85d Dual Railgun Turret"
+	turret -57.5 -153.5 "V85d Dual Railgun Turret"
+	turret 57.5 -153.5 "Torandor Cannon Turret"
+	turret -57.5 610 "Torandor Cannon Turret"
+	turret 57.5 610 "J520 Quad Zhizhe Turret"
+	gun -83 -597.5 "Finisher Maegrolain"
+		angle -90
+	gun 83 -597.5 "Finisher Maegrolain"
+		angle 90
+	gun -83 -542 "Finisher Maegrolain"
+		angle -90
+	gun 83 -542 "Finisher Maegrolain"
+		angle 90
+	gun -83 -478 "Finisher Maegrolain"
+		angle -90
+	gun 83 -478 "Finisher Maegrolain"
+		angle 90
+	gun -49 742.5 "Finisher Maegrolain"
+		angle -90
+	gun 49 742.5 "Finisher Maegrolain"
+		angle 90
+	gun -49 793.5 "Finisher Maegrolain"
+		angle -90
+	gun 49 793.5 "Finisher Maegrolain"
+		angle 90
+	gun -49 845 "Finisher Maegrolain"
+		angle -90
+	gun 49 845 "Finisher Maegrolain"
+		angle 90
+
+	bay "Pocket Superheavy Warship" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Pocket Superheavy Warship" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
+	bay "Pocket Superheavy Warship" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Pocket Superheavy Warship" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
+	bay "Pocket Superheavy Warship" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	description `Heavily customized Lucerne Class warship designed as a flagship.`
+
+
+ship "CF: Claymore Class"
+	"display name" "Claymore Class"
+	plural "Claymore Class"
+	sprite "ship/mgf navy superbattleship"
+	thumbnail "thumbnail/mgf navy superbattleship thumb"
+	attributes
+		category "Superheavy"
+		"cost" 1288700000
+		"shields" 835375
+		"hull" 324000
+		"hull repair rate" .7
+		"required crew" 1450
+		"bunks" 2652
+		"mass" 171985
+		"drag" 1634
+		"heat dissipation" .45
+		"fuel capacity" 2800
+		"cargo space" 850
+		"outfit space" 22452
+		"weapon capacity" 14556
+		"engine capacity" 985
+		"vertical launching support" 12
+		"spinal mount" 2
+		"force protection" 100
+		"spearfish capacity" 240
+		"repair delay" 160
+		"ramscoop" 30
+		"heat capacity" 120000
+		"active cooling" 250
+		"ion protection" 2
+		"scramble protection" 2
+		"landing speed" .01
+		weapon
+			"blast radius" 3000
+			"shield damage" 8000
+			"hull damage" 5500
+			"hit force" 4500
+	outfits
+		"M6-ACS Artillery Turret" 11
+		"T2-A-T Shock Turret" 4
+		"Tier 3 Anti-Missile" 10
+		"Torandor Cannon Turret"
+		"UREB Turret" 56
+		"V47 Plasma-Railgun Turret" 5
+		"V85d Dual Railgun Turret" 5
+		"J520 Quad Zhizhe Turret" 10
+
+		"Finisher Maegrolain" 24
+		"Finisher Storage Tube" 25
+		"Finisher Torpedo" 1940
+
+		"Elion Large Exotic Pool"
+		"IrdaSys Large XMAX Cinema"
+
+		"Plasmadyne Scoop" 2
+		"SCE-3 Radar Jammer"
+		"Systems Core (Large)" 25
+		"Large Battery Module" 11
+		"Blue Sun Reactor" 30
+		"Hai Octopus Jammer" 5
+		"Quantum Keystone"
+
+		`"Bufaer" Atomic Steering` 6
+		`"Bufaer" Atomic Thruster` 5
+		"Jump Drive"
+
+	#Primary
+	turret 87.5 -794.5 "Torandor Cannon Turret"
+	turret -87.5 -794.5 "UREB Turret"
+	turret 136.5 -794.5 "UREB Turret"
+	turret -136.5 -794.5 "UREB Turret"
+	turret 85.5 -721 "UREB Turret"
+	turret -85.5 -721 "UREB Turret"
+	turret 135 -721 "UREB Turret"
+	turret -135 -721 "UREB Turret"
+	turret 86 -650 "UREB Turret"
+	turret -86 -650 "UREB Turret"
+	turret 137 -650 "Tier 3 Anti-Missile"
+	turret -137 -650 "Tier 3 Anti-Missile"
+	turret 86 -323 "Tier 3 Anti-Missile"
+	turret -86 -323 "Tier 3 Anti-Missile"
+	turret 135 -323 "Tier 3 Anti-Missile"
+	turret -135 -323 "Tier 3 Anti-Missile"
+	turret 85 -248 "Tier 3 Anti-Missile"
+	turret -85 -248 "Tier 3 Anti-Missile"
+	turret 134.5 -248 "Tier 3 Anti-Missile"
+	turret -134.5 -248 "Tier 3 Anti-Missile"
+	turret 85 -173.5 "J520 Quad Zhizhe Turret"
+	turret -85 -173.5 "J520 Quad Zhizhe Turret"
+	turret 137 -173.5 "UREB Turret"
+	turret -137 -173.5 "UREB Turret"
+	#Spinal
+	gun -44 -1417 "Plasmadyne Scoop"
+	gun 44 -1417 "Plasmadyne Scoop"
+	#Special Heavy
+	turret 100.5 -846 "UREB Turret"
+	turret -100.5 -846 "J520 Quad Zhizhe Turret"
+	turret 0 88.5 "J520 Quad Zhizhe Turret"
+	turret 405 838 "J520 Quad Zhizhe Turret"
+	turret -405 838 "J520 Quad Zhizhe Turret"
+	turret 0 1085.5 "J520 Quad Zhizhe Turret"
+	#Torps
+	gun 171.5 -1265 "Finisher Maegrolain"
+	gun -171.5 -1265 "Finisher Maegrolain"
+	gun 171.5 -1265 "Finisher Maegrolain"
+	gun -171.5 -1265 "Finisher Maegrolain"
+	gun 209.5 -1148.5 "Finisher Maegrolain"
+	gun -209.5 -1148.5 "Finisher Maegrolain"
+	gun 209.5 -1148.5 "Finisher Maegrolain"
+	gun -209.5 -1148.5 "Finisher Maegrolain"
+	#PDs
+	turret 108 -1267 "UREB Turret"
+	turret -108 -1267 "UREB Turret"
+	turret 140.5 -1193 "J520 Quad Zhizhe Turret"
+	turret -140.5 -1193 "J520 Quad Zhizhe Turret"
+	turret 169.5 -1110.5 "J520 Quad Zhizhe Turret"
+	turret -169.5 -1110.5 "V47 Plasma-Railgun Turret"
+	turret 105.5 -1172.5 "V47 Plasma-Railgun Turret"
+	turret -105.5 -1172.5 "V47 Plasma-Railgun Turret"
+	turret 126 -1120 "V47 Plasma-Railgun Turret"
+	turret -126 -1120 "V47 Plasma-Railgun Turret"
+	turret 138 -1075.5 "M6-ACS Artillery Turret"
+	turret -138 -1075.5 "M6-ACS Artillery Turret"
+	turret 139.5 -961.5 "M6-ACS Artillery Turret"
+	turret -139.5 -961.5 "M6-ACS Artillery Turret"
+	turret 139.5 -909 "M6-ACS Artillery Turret"
+	turret -139.5 -909 "M6-ACS Artillery Turret"
+	turret 300.5 -645.5 "M6-ACS Artillery Turret"
+	turret -300.5 -645.5 "M6-ACS Artillery Turret"
+	turret 325 -571 "M6-ACS Artillery Turret"
+	turret -325 -571 "M6-ACS Artillery Turret"
+	turret 376 -171.5 "UREB Turret"
+	turret -376 -171.5 "UREB Turret"
+	turret 398.5 -59.5 "UREB Turret"
+	turret -398.5 -59.5 "UREB Turret"
+	turret 44 -47 "T2-A-T Shock Turret"
+	turret -44 -47 "T2-A-T Shock Turret"
+	turret 81 153.5 "T2-A-T Shock Turret"
+	turret -81 153.5 "T2-A-T Shock Turret"
+	turret 81 199.5 "M6-ACS Artillery Turret"
+	turret -81 199.5 "V85d Dual Railgun Turret"
+	turret 119 260 "V85d Dual Railgun Turret"
+	turret -119 260 "V85d Dual Railgun Turret"
+	turret 135.5 296.5 "V85d Dual Railgun Turret"
+	turret -135.5 296.5 "V85d Dual Railgun Turret"
+	turret 143 348 "UREB Turret"
+	turret -143 348 "UREB Turret"
+	turret 143 400 "UREB Turret"
+	turret -143 400 "UREB Turret"
+	turret 129.5 463.5 "UREB Turret"
+	turret -129.5 463.5 "UREB Turret"
+	turret 128.5 516.5 "UREB Turret"
+	turret -128.5 516.5 "UREB Turret"
+	turret 114 585.5 "UREB Turret"
+	turret -114 585.5 "UREB Turret"
+	turret 22.5 1013.5 "UREB Turret"
+	turret -22.5 1013.5 "UREB Turret"
+	#Rear Gun
+	gun 543 182.5 "Finisher Maegrolain"
+	gun -543 182.5 "Finisher Maegrolain"
+	gun 543 182.5 "Finisher Maegrolain"
+	gun -543 182.5 "Finisher Maegrolain"
+	#Medium
+	turret 261 -468.5 "UREB Turret"
+	turret -261 -468.5 "UREB Turret"
+	turret 164 190.5 "UREB Turret"
+	turret -164 190.5 "UREB Turret"
+	turret 267 351.5 "UREB Turret"
+	turret -267 351.5 "UREB Turret"
+	turret 328.5 385.5 "UREB Turret"
+	turret -328.5 385.5 "UREB Turret"
+	turret 395.5 423 "UREB Turret"
+	turret -395.5 423 "UREB Turret"
+	turret 263 494 "UREB Turret"
+	turret -263 494 "UREB Turret"
+	turret 333.5 530.5 "UREB Turret"
+	turret -333.5 530.5 "UREB Turret"
+	turret 352.5 960.5 "UREB Turret"
+	turret -352.5 960.5 "UREB Turret"
+	turret 55 870.5 "UREB Turret"
+	turret -55 870.5 "UREB Turret"
+	#VLS
+	gun 107 -516.5 "Finisher Maegrolain"
+		angle 90
+	gun -107 -516.5 "Finisher Maegrolain"
+		angle -90
+	gun 107 -488.5 "Finisher Maegrolain"
+		angle 90
+	gun -107 -488.5 "Finisher Maegrolain"
+		angle -90
+	gun 107 -464 "Finisher Maegrolain"
+		angle 90
+	gun -107 -464 "Finisher Maegrolain"
+		angle -90
+	gun 107 -433.5 "Finisher Maegrolain"
+		angle 90
+	gun -107 -433.5 "Finisher Maegrolain"
+		angle -90
+	gun 80 43.5 "Finisher Maegrolain"
+		angle 90
+	gun -80 43.5 "Finisher Maegrolain"
+		angle -90
+	gun 86 83.5 "Finisher Maegrolain"
+		angle 90
+	gun -86 83.5 "Finisher Maegrolain"
+		angle -90
+	#More PDs
+	turret 432.5 590.5 "UREB Turret"
+	turret -432.5 590.5 "UREB Turret"
+	turret 412 679.5 "UREB Turret"
+	turret -412 679.5 "UREB Turret"
+	turret 474 771 "UREB Turret"
+	turret -474 771 "UREB Turret"
+	turret 454 919 "UREB Turret"
+	turret -454 919 "UREB Turret"
+	engine 0 1433.5
+		zoom 2
+	engine 143 1330
+		zoom 1.6
+	engine -143 1330
+		zoom 1.6
+	engine 244 1229
+	engine -244 1229
+
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	explode "nuke explosion" 10
+	"final explode" "final explosion large" 2
+	description `Developed shortly after the alien attack at Farpoint as dedicated weapon platform very heavily armed with multiple large anti-capital turrets enough to shred most warships in seconds, it is essentially a mobile battlestation to fend off against future alien attack.`

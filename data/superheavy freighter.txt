@@ -1,0 +1,547 @@
+ship "CF: FG-10 Exchanger"
+	sprite "ship/mgf exchanger"
+	thumbnail "thumbnail/mgf exchanger thumb"
+	attributes
+		category "Superheavy"
+		"cost" 888000000
+		"shields" 196000
+		"hull" 185000
+		"required crew" 1020
+		"bunks" 1320
+		"mass" 184500
+		"drag" 685
+		"heat dissipation" .3
+		"fuel capacity" 3000
+		"cargo space" 144000
+		"outfit space" 8120
+		"weapon capacity" 4550
+		"engine capacity" 560
+		"landing speed" .006
+		"mgf fast unload" -3
+		"mgf fast unload slot" 3
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"EL-1388 Aphelion Turret" 18
+		"Finisher Pod" 12
+		"Finisher Storage Tube" 28
+		"Finisher Torpedo" 1040
+		"GE-22 Mini-Driver Turret" 35
+		"UREB Turret" 30
+		"Q4L Pulse Anti-Missile" 10
+
+		"Blue Sun Reactor" 12
+		"Systems Core (Large)" 10
+		"Large Battery Module" 10
+		"Hai Octopus Jammer" 5
+		"Quantum Keystone"
+		"SCE-3 Radar Jammer"
+
+		"Elion Large Exotic Pool"
+		"IrdaSys Large XMAX Cinema"
+
+		`"Bufaer" Atomic Steering` 2
+		`"Bufaer" Atomic Thruster` 3
+		"A865 Atomic Steering"
+		"Jump Drive"
+
+		"MGF: Fast Unloading" 3
+
+	#FrontCent
+	gun 30.5 -1439 "Finisher Pod"
+	gun -30.5 -1439 "Finisher Pod"
+	gun 30.5 -1439 "Finisher Pod"
+	gun -30.5 -1439 "Finisher Pod"
+	gun 30.5 -1439 "Finisher Pod"
+	gun -30.5 -1439 "Finisher Pod"
+	#Sideblock
+	gun 158.5 -1182 "Finisher Pod"
+	gun -158.5 -1182 "Finisher Pod"
+	gun 158.5 -1117 "Finisher Pod"
+	gun -158.5 -1117 "Finisher Pod"
+	gun 158.5 -1048.5 "Finisher Pod"
+	gun -158.5 -1048.5 "Finisher Pod"
+	#FrontCent Upper
+	turret 0 -1204.5 "Q4L Pulse Anti-Missile"
+	#turret 0 -1165.5
+	turret 0 -1114.5 "Q4L Pulse Anti-Missile"
+	#turret 0 -1044.5
+	turret 0 -998.5 "Q4L Pulse Anti-Missile"
+	#Lower side after guns
+	turret 157 -937 "Q4L Pulse Anti-Missile"
+	turret -157 -937 "Q4L Pulse Anti-Missile"
+	#Front upper block
+	turret 109.5 -870.5 "Q4L Pulse Anti-Missile"
+	turret -109.5 -870.5 "Q4L Pulse Anti-Missile"
+	turret 109.5 -822 "Q4L Pulse Anti-Missile"
+	turret -109.5 -822 "Q4L Pulse Anti-Missile"
+	#Front Tabs
+	turret 44 -679 "Q4L Pulse Anti-Missile"
+	turret -44 -679 "UREB Turret"
+	turret 44 -635.5 "UREB Turret"
+	turret -44 -635.5 "UREB Turret"
+	#Midfront center upper
+	turret 0 -470.5 "UREB Turret"
+	turret 0 -385.5 "UREB Turret"
+	#Midfront Lower
+	turret 103 -519.5 "UREB Turret"
+	turret -103 -519.5 "UREB Turret"
+	turret 103 -459 "UREB Turret"
+	turret -103 -459 "UREB Turret"
+	turret 66 -403.5 "UREB Turret"
+	turret -66 -403.5 "UREB Turret"
+	turret 96 -340.5 "UREB Turret"
+	turret -96 -340.5 "UREB Turret"
+	#MidSec Lower
+	turret 231.5 -270.5 "UREB Turret"
+	turret -231.5 -270.5 "UREB Turret"
+	turret 326 -163.5 "UREB Turret"
+	turret -326 -163.5 "UREB Turret"
+	turret 326 -73.5 "UREB Turret"
+	turret -326 -73.5 "UREB Turret"
+	turret 326 107 "UREB Turret"
+	turret -326 107 "GE-22 Mini-Driver Turret"
+	turret 326 197 "EL-1388 Aphelion Turret"
+	turret -326 197 "EL-1388 Aphelion Turret"
+	turret 239.5 298.5 "EL-1388 Aphelion Turret"
+	turret -239.5 298.5 "EL-1388 Aphelion Turret"
+
+	#MidSec Upper
+	turret 158.5 -248.5 "EL-1388 Aphelion Turret"
+	turret -158.5 -248.5 "EL-1388 Aphelion Turret"
+	turret 210 -181 "EL-1388 Aphelion Turret"
+	turret -210 -181 "EL-1388 Aphelion Turret"
+	#Midbay front
+	turret 214 -77 "EL-1388 Aphelion Turret"
+	turret -214 -77 "EL-1388 Aphelion Turret"
+	turret 237.5 205 "EL-1388 Aphelion Turret"
+	turret -237.5 205 "EL-1388 Aphelion Turret"
+	#rear tabs
+	turret 101.5 614.5 "EL-1388 Aphelion Turret"
+	turret -101.5 614.5 "EL-1388 Aphelion Turret"
+
+	turret 133 795 "EL-1388 Aphelion Turret"
+	turret -133 795 "EL-1388 Aphelion Turret"
+	turret 133 868.5 "EL-1388 Aphelion Turret"
+	turret -133 868.5 "GE-22 Mini-Driver Turret"
+	#Engine central
+	turret 27.5 1277.5 "GE-22 Mini-Driver Turret"
+	turret -27.5 1277.5 "GE-22 Mini-Driver Turret"
+	turret 27.5 1335 "GE-22 Mini-Driver Turret"
+	turret -27.5 1335 "GE-22 Mini-Driver Turret"
+	#Engine lower
+	turret 145.5 1350 "GE-22 Mini-Driver Turret"
+	turret -145.5 1350 "GE-22 Mini-Driver Turret"
+
+	bay "Pocket Superheavy Warship" 98.5 160
+		"launch effect" "human internal"
+		angle 90
+
+	#Exporters (the cargo arms)
+	turret 930 -848.5 "GE-22 Mini-Driver Turret"
+	turret -930 -848.5 "GE-22 Mini-Driver Turret"
+	turret 930 -660 "GE-22 Mini-Driver Turret"
+	turret -930 -660 "GE-22 Mini-Driver Turret"
+	turret 930 -466 "GE-22 Mini-Driver Turret"
+	turret -930 -466 "GE-22 Mini-Driver Turret"
+	turret 930 -273 "GE-22 Mini-Driver Turret"
+	turret -930 -273 "GE-22 Mini-Driver Turret"
+	turret 930 -83.5 "GE-22 Mini-Driver Turret"
+	turret -930 -83.5 "GE-22 Mini-Driver Turret"
+	turret 930 295.5 "UREB Turret"
+	turret -930 295.5 "UREB Turret"
+	turret 930 485 "UREB Turret"
+	turret -930 485 "UREB Turret"
+	turret 930 677 "UREB Turret"
+	turret -930 677 "UREB Turret"
+	turret 930 864 "UREB Turret"
+	turret -930 864 "UREB Turret"
+
+	#Cargo Arm holder Tips
+	turret 801.5 -846 "UREB Turret"
+	turret -801.5 -846 "UREB Turret"
+	turret 801.5 -658 "GE-22 Mini-Driver Turret"
+	turret -801.5 -658 "GE-22 Mini-Driver Turret"
+	turret 801.5 -471 "GE-22 Mini-Driver Turret"
+	turret -801.5 -471 "GE-22 Mini-Driver Turret"
+	turret 801.5 -282 "GE-22 Mini-Driver Turret"
+	turret -801.5 -282 "GE-22 Mini-Driver Turret"
+	turret 801.5 -92.5 "GE-22 Mini-Driver Turret"
+	turret -801.5 -92.5 "GE-22 Mini-Driver Turret"
+	turret 801.5 103 "GE-22 Mini-Driver Turret"
+	turret -801.5 103 "GE-22 Mini-Driver Turret"
+	turret 801.5 289 "GE-22 Mini-Driver Turret"
+	turret -801.5 289 "GE-22 Mini-Driver Turret"
+	turret 801.5 480 "GE-22 Mini-Driver Turret"
+	turret -801.5 480 "GE-22 Mini-Driver Turret"
+	turret 801.5 673.5 "GE-22 Mini-Driver Turret"
+	turret -801.5 673.5 "GE-22 Mini-Driver Turret"
+	turret 801.5 860.5 "GE-22 Mini-Driver Turret"
+	turret -801.5 860.5 "EL-1388 Aphelion Turret"
+
+	engine -204 1452.5
+	engine 204 1452.5
+	engine -68.5 1452.5
+	engine 68.5 1452.5
+
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `The FG-10 was the largest freighter ever seen in human space at it's inception. It has since been phased out in favor of the K-Class, but it still remains magnitudes larger than most freighters.`
+	description `	To protect itself the ship carries a vast array of armaments rivalling most warships.`
+
+
+ship "CF: K-Class Ultra Container Ship"
+	sprite "ship/mgf syn kclass ultra container"
+	thumbnail "thumbnail/mgf syn kclass ultra container thumb"
+	attributes
+		category "Superheavy"
+		"cost" 1982000000
+		"shields" 244400
+		"hull" 248000
+		"required crew" 1032
+		"bunks" 1283
+		"mass" 452890
+		"drag" 882
+		"heat dissipation" .3
+		"fuel capacity" 3600
+		"cargo space" 515900
+		"outfit space" 6810
+		"weapon capacity" 3840
+		"engine capacity" 660
+		"landing speed" .005
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+	    "Teciimach Bay" 14
+		"Teciimach Canister" 126
+		"UREB Turret" 24
+	    "CMX-12 Anti-Missile" 10
+		"Finisher Pod" 10
+		"Finisher Storage Tube"
+		"Finisher Torpedo" 420
+		"EL-1388 Aphelion Turret" 27
+
+		"Blue Sun Reactor" 10
+		"Large Battery Module" 10
+		"Quantum Keystone"
+		"SCE-3 Radar Jammer"
+		"Systems Core (Large)" 9
+		"Catalytic Ramscoop"
+		"Hai Octopus Jammer" 5
+
+		"IrdaSys Large XMAX Cinema"
+		"Elion Large Exotic Pool"
+
+		"A860 Atomic Thruster" 3
+		"A865 Atomic Steering" 3
+		"Jump Drive"
+	turret 154.5 -1225.5 "UREB Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -154.5 -1225.5 "CMX-12 Anti-Missile"
+		angle -90
+		parallel
+		arc -90 90
+	turret 154.5 -834.5 "CMX-12 Anti-Missile"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -154.5 -834.5 "EL-1388 Aphelion Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 154.5 -451.5 "EL-1388 Aphelion Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -154.5 -451.5 "EL-1388 Aphelion Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 154.5 -72 "EL-1388 Aphelion Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -154.5 -72 "EL-1388 Aphelion Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 154.5 317 "EL-1388 Aphelion Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -154.5 317 "EL-1388 Aphelion Turret"
+		angle -90
+		parallel
+		arc -90 90
+	gun 65 -1595.5 "Teciimach Bay"
+	gun -65 -1595.5 "Teciimach Bay"
+	gun 65 -1595.5 "Teciimach Bay"
+	gun -65 -1595.5 "Teciimach Bay"
+	gun 65 -1595.5 "Teciimach Bay"
+	gun -65 -1595.5 "Teciimach Bay"
+	gun 65 -1595.5 "Teciimach Bay"
+	gun -65 -1595.5 "Teciimach Bay"
+	turret 522 -1228.5 "EL-1388 Aphelion Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -522 -1228.5 "EL-1388 Aphelion Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 522 -833.5 "EL-1388 Aphelion Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -522 -833.5 "EL-1388 Aphelion Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 522 -449.5 "CMX-12 Anti-Missile"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -522 -449.5 "EL-1388 Aphelion Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 522 -71 "EL-1388 Aphelion Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -522 -71 "EL-1388 Aphelion Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 522 325.5 "EL-1388 Aphelion Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -522 325.5 "EL-1388 Aphelion Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 306.5 661 "EL-1388 Aphelion Turret"
+		angle 90
+		arc -99.997559 -260.00244
+	turret -306.5 661 "EL-1388 Aphelion Turret"
+		angle -90
+		arc 260.00244 99.997559
+	turret 484.5 661 "EL-1388 Aphelion Turret"
+		angle 90
+		arc -99.997559 -260.00244
+	turret -484.5 661 "EL-1388 Aphelion Turret"
+		angle -90
+		arc 260.00244 99.997559
+	gun 428.5 -1598 "Teciimach Bay"
+	gun -428.5 -1598 "Teciimach Bay"
+	gun 529.5 -1598 "Teciimach Bay"
+	gun -529.5 -1598 "Teciimach Bay"
+	gun 428.5 -1598 "Finisher Pod"
+	gun -428.5 -1598 "Finisher Pod"
+	gun 529.5 -1598 "Finisher Pod"
+	gun -529.5 -1598 "Finisher Pod"
+	gun 428.5 -1598 "Finisher Pod"
+	gun -428.5 -1598 "Finisher Pod"
+	gun 529.5 -1598 "Finisher Pod"
+	gun -529.5 -1598 "Finisher Pod"
+	gun 428.5 -1598 "Finisher Pod"
+	gun -428.5 -1598 "Finisher Pod"
+	gun 529.5 -1598 "Teciimach Bay"
+	gun -529.5 -1598 "Teciimach Bay"
+	turret 511.5 -1135.5 "EL-1388 Aphelion Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -511.5 -1135.5 "EL-1388 Aphelion Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 511.5 -1063 "EL-1388 Aphelion Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -511.5 -1063 "EL-1388 Aphelion Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 511.5 -992.5 "EL-1388 Aphelion Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -511.5 -992.5 "UREB Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 511.5 -916.5 "EL-1388 Aphelion Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -511.5 -916.5 "EL-1388 Aphelion Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 511.5 20 "UREB Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -511.5 20 "UREB Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 511.5 90 "UREB Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -511.5 90 "UREB Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 511.5 165.5 "UREB Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -511.5 165.5 "UREB Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 511.5 240 "UREB Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -511.5 240 "UREB Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 142.5 -1136.5 "UREB Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -142.5 -1136.5 "UREB Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 142.5 -1070 "UREB Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -142.5 -1070 "UREB Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 142.5 -999.5 "UREB Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -142.5 -999.5 "UREB Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 142.5 -921 "UREB Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -142.5 -921 "UREB Turret"
+		angle -90
+		parallel
+		arc -90 90
+	turret 142.5 23 "UREB Turret"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -142.5 23 "CMX-12 Anti-Missile"
+		angle -90
+		parallel
+		arc -90 90
+	turret 142.5 89.5 "CMX-12 Anti-Missile"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -142.5 89.5 "CMX-12 Anti-Missile"
+		angle -90
+		parallel
+		arc -90 90
+	turret 142.5 173.5 "CMX-12 Anti-Missile"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -142.5 173.5 "CMX-12 Anti-Missile"
+		angle -90
+		parallel
+		arc -90 90
+	turret 142.5 239 "CMX-12 Anti-Missile"
+		angle 90
+		parallel
+		arc -90 -270
+	turret -142.5 239 "CMX-12 Anti-Missile"
+		angle -90
+		parallel
+		arc -90 90
+	turret 0 1428.5 "UREB Turret"
+		angle -180
+		arc 270 90
+	turret 90 1580.5 "UREB Turret"
+		angle -180
+		arc 270 119.99817
+	turret -90 1580.5 "UREB Turret"
+		angle -180
+		arc 240.00183 90
+	turret 146 1518 "UREB Turret"
+		angle 150.00183
+		arc -80.002441 -270
+	turret -146 1518 "UREB Turret"
+		angle -150.00183
+		arc 270 80.002441
+	bay "Pocket Superheavy Warship" 94.5 814.5
+		angle -90
+	bay "Pocket Superheavy Warship" -94.5 814.5
+		angle 90
+	bay "Pocket Superheavy Warship" 94.5 814.5
+		angle -90
+	bay "Pocket Superheavy Warship" -94.5 814.5
+		angle 90
+	bay "Pocket Superheavy Warship" 94.5 814.5
+		angle -90
+
+
+	bay "Pocket Superheavy Freighter" 655.5 807
+		angle -90
+	bay "Pocket Superheavy Freighter" -655.5 807
+		angle 90
+	bay "Pocket Superheavy Freighter" 655.5 807
+		angle -90
+	bay "Pocket Superheavy Freighter" -655.5 807
+		angle 90
+	bay "Pocket Superheavy Freighter" 655.5 807
+		angle -90
+
+	engine -476 1513.5
+	engine 476 1513.5
+	engine 103.5 1504
+		over
+	engine -103.5 1504
+		over
+	leak "leak" 40 60
+	leak "flame" 60 120
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	explode "nuke explosion" 4
+	"final explode" "final explosion large"
+	description `Despite being a freighter, this heavily customized K-Class rivals the offensive power of most warships. `
