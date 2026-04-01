@@ -1,5 +1,5 @@
-name "Capital Fleet"
-about `Makes several heavily customized superheavy ships and new pocket heavy warships available for purchase at Luna, Sol.`
+name "Imperial Collection"
+about `An Endless Sky asset collection worthy of an Empire. `
 version 1.0
 authors
 	MustBePerfect

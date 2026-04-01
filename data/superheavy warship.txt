@@ -1,4 +1,4 @@
-ship "CF: Lucerne Class"
+ship "IC: Lucerne Class"
 	plural "Lucerne Class"
 	sprite "ship/mgf navy supercarrier"
 	thumbnail "thumbnail/mgf navy supercarrier thumb"
@@ -189,10 +189,10 @@ ship "CF: Lucerne Class"
 	bay "Pocket Superheavy Warship" -232.5 -222
 		"launch effect" "human internal"
 		angle -110
-	description `Heavily customized Lucerne Class warship designed as a flagship.`
+	description `The Lucerne Class is the crown jewel of the Imperial Fleet with incredibly versality, armed with a diverse arsenal for `
 
 
-ship "CF: Claymore Class"
+ship "IC: Claymore Class"
 	"display name" "Claymore Class"
 	plural "Claymore Class"
 	sprite "ship/mgf navy superbattleship"

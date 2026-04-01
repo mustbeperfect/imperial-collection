@@ -1,4 +1,4 @@
-ship "CF: CDB-12K Saturn"
+ship "IC: CDB-12K Saturn"
 	sprite "ship/mgf saturn"
 	thumbnail "thumbnail/mgf saturn thumb"
 	attributes
@@ -90,7 +90,7 @@ ship "CF: CDB-12K Saturn"
 	description "Heavily customized freighter built as a support craft for superheavy freighters."
 
 
-ship "CF: FG-7 Conveyor"
+ship "IC: FG-7 Conveyor"
 	sprite "ship/mgf conveyor"
 	thumbnail "thumbnail/mgf conveyor"
 	attributes

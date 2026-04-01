@@ -1,4 +1,4 @@
-ship "CF: FG-10 Exchanger"
+ship "IC: FG-10 Exchanger"
 	sprite "ship/mgf exchanger"
 	thumbnail "thumbnail/mgf exchanger thumb"
 	attributes
@@ -199,7 +199,7 @@ ship "CF: FG-10 Exchanger"
 	description `	To protect itself the ship carries a vast array of armaments rivalling most warships.`
 
 
-ship "CF: K-Class Ultra Container Ship"
+ship "IC: K-Class Ultra Container Ship"
 	sprite "ship/mgf syn kclass ultra container"
 	thumbnail "thumbnail/mgf syn kclass ultra container thumb"
 	attributes
