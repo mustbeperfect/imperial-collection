@@ -1,0 +1,56 @@
+system "Imperial Capital"
+	"display name" "capital"
+	pos <x#> <y#>
+	government "Imperium"
+	attributes <attribute>...
+	music <sound>
+	arrival [<distance#>]
+		link <distance#>
+		jump <distance#>
+	departure [<distance#>]
+		link <distance#>
+		jump <distance#>
+	ramscoop
+		universal <value#>
+		addend <value#>
+		multiplier <value#>
+	habitable <distance#>
+	belt <distance#> [<weight#>]
+	"invisible fence" <distance#>
+	"jump range" <distance#>
+	haze <sprite>
+	link <system>
+	asteroids <name> <count#> <energy#>
+	minables <name> <count#> <energy#>
+	trade <commodity> <cost#>
+	fleet <name> <period#>
+		[to spawn]
+			<condition> <comp> <value>
+			(has | not) <condition>
+			never
+			(and | or)
+				...
+	raid <fleet> [<min-attraction#> [<max-attraction#>]]
+	hazard <name> <period#>
+		[to spawn]
+			<condition> <comp> <value>
+			(has | not) <condition>
+			never
+			(and | or)
+				...
+	"starfield density" <density#>
+	object [<name>]
+		sprite <sprite>
+			scale <scale#>
+		distance <distance#>
+		period <period#>
+		offset <offset#>
+		hazard <name> <period#>
+			[to spawn]
+				<condition> <comp> <value>
+				(has | not) <condition>
+				never
+				(and | or)
+					...
+		object [<name>]
+			...

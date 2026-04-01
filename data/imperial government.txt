@@ -1,0 +1,26 @@
+government "Imperium"
+	"display name" "Imperium"
+	swizzle 0
+	color (0 0 0)
+	reputation
+		"player reputation" 100
+		min 100
+		max 100
+	"default attitude" 0
+	"send untranslated hails"
+	"friendly hail" "Empire, we await your orders."
+	"friendly disabled hail" "Empire, our services are at your disposal."
+	"tribute hails"
+		"already paying" <phrase>
+		"undefined" <phrase>
+		"unworthy" <phrase>
+		"fleet launching" <phrase>
+		"fleet undefeated" <phrase>
+		"surrendered" <phrase>
+	language <text>
+	raid <fleet> [<min-attraction#> [<max-attraction#>]]
+	enforces [all]
+	enforces
+		{filter specification...}
+	"travel restrictions"
+		{filter specification...}

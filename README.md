@@ -1,15 +1,13 @@
 <h1 align="center">The Imperial Collection</h1>
-<p align="center">Assets worthy of the Empire.</p>
+<p align="center">Welcome, Empire.</p>
 
 ![pluginpicture](https://github.com/user-attachments/assets/2364fb07-b475-4bd8-8a21-664fac401396)
 
 > [!NOTE]
-> This plugin is an extension of Mega Freight by 1010todd and uses assets from it.
+> This plugin uses assets from Mega Freight by 1010todd and Lost in Midnight by MidnightPlugins.
 
 # About
-This is a plugin for Endless Sky with the Mega Freight Plugin. It gives you access to all sorts of heavily customized ships for every purpose whether you want to travel or conquer the galaxy, or both. 
-
-It makes several heavily customized superheavy capital ships available to purchase at Hermes, Capella (two jumps above Sol) and adds two new ship categories; Pocket Superheavy Warships and Freighters. I built this plugin as I got tired of managing huge fleets of all types of ships. These superheavy's condense the capabilities of hundreds of ships into onel a jack of all trades and master of all.
+You are Empire, trillionare and head of the Imperium. The Imperium isn't technically a government as there are no citizens, but it serves as the umbrella entity for your assets and private military. These assets include private planets and stations scattered across the galaxy as well as custom ships. There's also new trillionare related missions, including some that run alongside major events in the galaxy. You can use the job board on the capital planet, Eden, to communicate with your advisors and send orders to your military.
 
 Superheavy warships:
 - Claymore Class
