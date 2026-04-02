@@ -1,0 +1,65 @@
+ship "IC: LCC-3 Sierra"
+	sprite "ship/mgf sierra tanker"
+	attributes
+		category "Heavy Freighter"
+		"cost" 11200000
+		"shields" 8900
+		"hull" 9700
+		"required crew" 25
+		"bunks" 30
+		"mass" 7830
+		"drag" 10.4
+		"heat dissipation" .6
+		"fuel capacity" 18000
+		"cargo space" 300
+		"outfit space" 470
+		"weapon capacity" 200
+		"engine capacity" 165
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret" 3
+		"Heavy Anti-Missile Turret" 2
+
+		"Fission Reactor"
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"D23-QP Shield Generator"
+		"Laser Rifle" 4
+
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+
+	turret 0 -150.5
+		arc -175 175
+	turret 0 -12
+		arc -175 175
+	turret 0 49.5
+		arc -175 175
+	turret -52 79
+		angle -45
+		arc -150 150
+	turret 52 79
+		angle 45
+		arc -150 150
+	engine 38 259
+		zoom 1
+		angle 0
+		under
+	engine -38 259
+		zoom 1
+		angle 0
+		under
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Due to the Imperium's reliance on beam-core antimatter drives that provide immense thrust at the cost of hyperdrive fuel, this tanker has become a critical component of Imperial fleets. "

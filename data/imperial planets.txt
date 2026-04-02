@@ -1,43 +1,28 @@
 planet "Eden"
 	"display name" <name>
-	attributes <attribute>... "requires: <attribute>"
-	landscape <sprite>...
-		<sprite> [<weight>]
-		...
-	music <sound>
+	attributes "imperium"
+	landscape
+		capital-pic1.jpg
+		capital-pic2.jpg
 	description "Eden is the capital planet of the Imperium. Every part of the planet's geology was custom designed and built via terraforming. Eden is entirely enveloped by a physical layer. As such, the planet has three surfaces; the planetary surface itself, the interior of the outer shell, and the exterior of the shell. The outer planet is a replica of Old Earth.
 	Full control of the climate is possible through"
-	spaceport <text>
-	to know
-		<condition-set>
+	spaceport "The spaceport is impossibly large - stretching into the distance in every direction further than you can see. "
 	to land
-		<condition-set>
-	to access (outfitter | shipyard)
-		<condition-set>
+		license: "Imperial Seal"
 	port [<name>]
-		recharges <recharge-type>...
-			...
-		services <service-type>...
-			...
-		to access
-			<condition-set>
-		to bribe
-			<condition-set>
-		to recharge <recharge-type>...
-			<condition-set>
-		to service <recharge-type>...
-			<condition-set>
-		news
+		recharges "all"
+		services
+			"job board"
+			"bank"
+			"hire crew"
+			"offers missions"
 		description <text>
-	government <name>
-	shipyard <name>
-	outfitter <name>
-	"required reputation" <reputation#>
-	bribe <bribe#>
-	"bribe threshold" <reputation#>
-	security <security#>
-	wormhole <name>
-	tribute <credits#>
+		landscape
+	government "Imperium"
+	shipyard "Imperial Shipyard"
+	outfitter "Imperial Outfitter"
+	"required reputation" 1
+	tribute -100000000
 		threshold <rating#>
 		fleet <name> <count#>
 	"tribute hails"
@@ -55,8 +40,7 @@ planet "Caelum"
 		<sprite> [<weight>]
 		...
 	music <sound>
-	description "Eden is the capital planet of the Imperium. Every part of the planet's geology was custom designed and built via terraforming. Eden is entirely enveloped by a physical layer. As such, the planet has three surfaces; the planetary surface itself, the interior of the outer shell, and the exterior of the shell. The outer planet is a replica of Old Earth.
-	Full control of the climate is possible through"
+	description "Eden is the capital planet of the Imperium. Every part of the planet's geology was custom designed and built via terraforming. Eden is entirely enveloped by a physical layer. As such, the planet has three surfaces; the planetary surface itself, the interior of the outer shell, and the exterior of the shell. The shell interior is used mostly for manufacturing and stockpiling.The outer planet is a replica of Old Earth. Full control of the climate is possible through"
 	spaceport <text>
 	to know
 		<condition-set>

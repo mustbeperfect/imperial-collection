@@ -1,0 +1,229 @@
+ship "IC: AP-7 Sentinel"
+	sprite "ship/mgf syn sentinel"
+	thumbnail "thumbnail/mgf syn sentinel thumb"
+	attributes
+		category "Heavy Warship"
+		"cost" 12200000
+		"shields" 11700
+		"hull" 9200
+		"required crew" 46
+		"bunks" 82
+		"mass" 1150
+		"drag" 10.1
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 20
+		"outfit space" 1020
+		"weapon capacity" 500
+		"engine capacity" 150
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Proton Gun" 12
+		"Proton Turret" 1
+		"Heavy Anti-Missile Turret" 2
+		"Mjolnir Missile" 240
+		"Mjolnir Launcher" 8
+
+		"Fusion Reactor" 2
+		"LP576a Battery Pack"
+		"D67-TM Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 50
+
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+
+	gun -5 -179.5
+	gun 5 -179.5
+	gun -10.5 -171.5
+	gun 10.5 -171.5
+	gun -20.5 -194
+	gun 20.5 -194
+	gun -20.5 -194
+	gun 20.5 -194
+	gun -29 -183.5
+	gun 29 -183.5
+	gun -36 -159.5
+	gun 36 -159.5
+	gun -55 -4.5 "Mjolnir Launcher"
+	gun 55 -4.5 "Mjolnir Launcher"
+	gun -61.5 -4.5 "Mjolnir Launcher"
+	gun 61.5 -4.5 "Mjolnir Launcher"
+	gun -67 -4.5 "Mjolnir Launcher"
+	gun 67 -4.5 "Mjolnir Launcher"
+	gun -72 -4.5 "Mjolnir Launcher"
+	gun 72 -4.5 "Mjolnir Launcher"
+	turret 0 -112 "Proton Turret"
+	turret 0 -39
+	turret 0 11
+	engine -34.5 201.5
+	engine 34.5 201.5
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Elite stealth escort."
+
+ship "IC: AP-22 Fusillade"
+	sprite "ship/mgf syn fusillade"
+	thumbnail "thumbnail/mgf syn fusillade thumb"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Syndicate Platinum"
+		"cost" 28200000
+		"shields" 25700
+		"hull" 16800
+		"required crew" 185
+		"bunks" 246
+		"mass" 11250
+		"drag" 16.8
+		"heat dissipation" .4
+		"fuel capacity" 800
+		"cargo space" 120
+		"outfit space" 3226
+		"weapon capacity" 2022
+		"engine capacity" 782
+		"spinal mount" 1
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Proton Gun" 44
+		"Proton Turret" 11
+		"Heavy Anti-Missile Turret" 8
+		"Meteor Missile Launcher" 8
+		"Meteor Missile" 240
+		"Mjolnir Missile" 240
+		"Mjolnir Launcher" 8
+
+		"Armageddon Core" 4
+		"LP576a Battery Pack"
+		"D94-YV Shield Generator" 3
+		"Large Radar Jammer" 2
+		"Liquid Helium Cooler"
+		"Brig"
+		"Laser Rifle" 500
+		"Security Station" 2
+
+		"X5700 Ion Thruster"
+		"X3700 Ion Thruster"
+		"X5200 Ion Steering"
+		"X4200 Ion Steering"
+		"Scram Drive"
+
+	gun 0 -268
+	gun -22 -250
+	gun 22 -250
+	gun -28 -248
+	gun 28 -248
+	gun -22 -246
+	gun 22 -246
+	gun -26 -246
+	gun 26 -246
+	gun -36 -230
+	gun 36 -230
+	gun -36 -230
+	gun 36 -230
+	gun -40 -229
+	gun 40 -229
+	gun -40 -229
+	gun 40 -229
+	gun -47 -214
+	gun 47 -214
+	gun -47 -214
+	gun 47 -214
+	gun -54 -212
+	gun 54 -212
+	gun -54 -212
+	gun 54 -212
+	gun -60 -192
+	gun 60 -192
+	gun -64 -192
+	gun 64 -192
+	gun -69 -180
+	gun 69 -180
+	gun -69 -180
+	gun 69 -180
+	gun -76 -179
+	gun 76 -179
+	gun -76 -179
+	gun 76 -179
+	gun -104 10
+	gun 104 10
+	gun -104 10
+	gun 104 10
+	gun -118 28
+	gun 118 28
+	gun -118 28
+	gun 118 28
+	turret -28 -146 "Heavy Anti-Missile Turret"
+	turret 28 -146 "Heavy Anti-Missile Turret"
+	turret -28 -130 "Heavy Anti-Missile Turret"
+	turret 28 -130 "Heavy Anti-Missile Turret"
+	turret -20 -99
+	turret 20 -99
+	turret 0 -23
+	turret -46 58
+	turret 46 58
+	turret -46 77 "Heavy Anti-Missile Turret"
+	turret 46 77 "Heavy Anti-Missile Turret"
+	turret -46 92
+	turret 46 92
+	turret -60 180
+	turret 60 180
+	turret -60 207
+	turret 60 207
+	turret -60 222 "Heavy Anti-Missile Turret"
+	turret 60 222 "Heavy Anti-Missile Turret"
+	gun -137 162 "Meteor Missile Launcher"
+	gun 137 162 "Meteor Missile Launcher"
+	gun -146 162 "Meteor Missile Launcher"
+	gun 146 162 "Meteor Missile Launcher"
+	gun -157 162 "Meteor Missile Launcher"
+	gun 157 162 "Meteor Missile Launcher"
+	gun -165 162 "Meteor Missile Launcher"
+	gun 165 162 "Meteor Missile Launcher"
+
+	gun -137 162 "Mjolnir Launcher"
+	gun 137 162 "Mjolnir Launcher"
+	gun -146 162 "Mjolnir Launcher"
+	gun 146 162 "Mjolnir Launcher"
+	gun -157 162 "Mjolnir Launcher"
+	gun 157 162 "Mjolnir Launcher"
+	gun -165 162 "Mjolnir Launcher"
+	gun 165 162 "Mjolnir Launcher"
+	engine -70 332
+		zoom 1
+		under
+	engine 70 332
+		zoom 1
+		under
+	engine -26 349
+		zoom 1
+		under
+	engine 26 349
+		zoom 1
+		under
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Massive gun platform."

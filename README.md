@@ -7,7 +7,9 @@
 > This plugin uses assets from Mega Freight by 1010todd and Lost in Midnight by MidnightPlugins.
 
 # About
-You are Empire, trillionare and head of the Imperium. The Imperium isn't technically a government as there are no citizens, but it serves as the umbrella entity for your assets and private military. These assets include private planets and stations scattered across the galaxy as well as custom ships. There's also new trillionare related missions, including some that run alongside major events in the galaxy. You can use the job board on the capital planet, Eden, to communicate with your advisors and send orders to your military.
+You are Empire, trillionare and head of the Imperium. The Imperium isn't technically a government as there are no citizens, but it serves as the umbrella entity for your assets and private military. These assets include private planets and stations scattered across the galaxy as well as custom ships. There's also new trillionare related missions, including some that run alongside major events in the galaxy. You can also use the job board on your capital planet, Eden, to communicate with your advisors and send orders to your military.
+
+The Imperial Start gives you the full experience, there will likely be issues with other starts. By default you own your planets (via tribute). Keep in mind that operating costs run in the hundreds of millions per day, although you, by default, also have a colossal salary to account for invesments and business profits. The Galactic Capital Investment plugin by Zuckung is heavily reccomended when dealing with these large sums of money. Relinquishing tribute to your planets will cause those planets to be seized by the Republic.
 
 Superheavy warships:
 - Claymore Class
@@ -31,8 +33,3 @@ Superheavy pocket freighters:
 
 ### Changes (Pocket Superheavy)
 - Any pocket bays were converted to outfit space.
-
-### Other Notes
-- All ships have been kitted out with top of the line outfits from different races (except for quarg outfits cus they get all mopey about it). The superheavy warships are outfitted for offense with missiles and long range turrets to make up for their sheer size and slow speed. The superheavy freighters are outfitted for defense.
-- The operating cost of these are insane. If you are using Dulle Griet Class pocket heavy warships, expect a total missile refill to cost around 600 million credits per superheavy 😭💀. I highly reccomend missile loadouts though as it delivers massive offensive capabilities without having to engage in close up combat. A single Dulle Griet is able to take down a Quarg Hydra with a single missile volley.
-- Billionare won't cut it for these ships. You need to be a trillionare 😁.

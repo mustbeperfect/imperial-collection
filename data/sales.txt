@@ -1,4 +1,4 @@
-shipyard "Capital Fleet Shipyard"
+shipyard "Imperial Shipyard"
     "IC: Lucerne Class"
     "IC: Claymore Class"
     "IC: FG-10 Exchanger"
@@ -7,8 +7,12 @@ shipyard "Capital Fleet Shipyard"
     "IC: FG-7 Conveyor"
     "IC: Dulle Griet Class"
     "IC: Grose Bochse Class"
+    "IC: AD-019A Iabayi"
+    "IC: LCC-3 Sierra"
+    "IC: AP-22 Fusillade"
+    "IC: AP-7 Sentinel"
 
-outfitter "Capital Fleet Outfitter"
+outfitter "Imperial Outfitter"
     "UREB Turret"
     "EL-1388 Aphelion Turret"
     "EMX-55 Flakcannon Turret"
@@ -23,6 +27,7 @@ outfitter "Capital Fleet Outfitter"
     "V47 Plasma-Railgun Turret"
     "V85 Railgun Turret"
     "V85d Dual Railgun Turret"
+    "Vkan Revolver Cannon Turret"
     "uL4 Ion Artillery Turret"
 
     "KC-421 Parapet Anti-Missile"
@@ -33,26 +38,59 @@ outfitter "Capital Fleet Outfitter"
     "Teciimach Bay"
     "Finisher Pod"
     "Finisher Maegrolain"
+    "AH-5 Eteron Launch System"
+    "External Launch Rail"
+    "External Launch Tube"
+    "Vertical Launch Array (9)"
+    "Vertical Launch Array (18)"
+    "Vertical Launch Array (36)"
+    "Mjolnir Launcher"
+
     "Teciimach Canister Rack"
     "Finisher Storage Tube"
+    "Ophrys Stockpile"
+
+    "Teciimach Canister Depot"
+    "Finisher Storage Depot"
+
     "Teciimach Canister"
     "Finisher Torpedo"
+    '"Orchid" Nuclear Missile'
+    '"Ophrys" Nuclear Torpedo'
+    '"Nettle" KKV'
+    "AH-5 Eteron Torpedo"
+    "Mjolnir Missile"
 
     "Jump Drive"
+
+    "Cloaking Device"
 
     "Systems Core (Small)"
     "Systems Core (Medium)"
     "Systems Core (Large)"
 
+    "Quantum Keystone"
+
     "SCE-3 Radar Jammer"
     "Hai Octopus Jammer"
 
+    '"Veldt" Combat Scanner'
+
     "Catalyric Ramscoop"
+    "Wanderer Ramscoop"
+    "Magnetic Scoop"
     "Plasmadyne Scoop"
 
     "Cryogenic Deuterium Tank"
 
+    "Elion Compact Pool"
+    "Elion Medium Pool"
+    "Elion Large Pool"
+    "Elion Huge Pool"
     "Elion Large Exotic Pool"
+    "IrdaSys Compact Cinema"
+    "IrdaSys Medium Cinema"
+    "IrdaSys Large Cinema"
     "IrdaSys Large XMX Cinema"
 
     "Red Sun Reactor"
@@ -60,6 +98,16 @@ outfitter "Capital Fleet Outfitter"
     "White Sun Reactor"
     "Blue Sun Reactor"
     "Large Battery Module"
+    "VYT Malebolge Core"
+    '"Uoret" Fusion Core'
+    '"Ryuit" Fusion Core'
+    '"Nnesa" Fusion Core'
+    "Large Reactor Module"
+    "Small Reactor Module"
+    "Kiirotaiyo Fusion Reactor"
+
+    "Uo-class Energy Module"
+    "Ta-class Energy Module"
 
     "A125 Atomic Steering"
     "A120 Atomic Thruster"
@@ -86,6 +134,11 @@ outfitter "Capital Fleet Outfitter"
     '"Bondir" Atomic Thruster'
     '"Bufaer" Atomic Steering'
     '"Bufaer" Atomic Thruster'
+    "GS152-Ak Fusion Engine"
+    'A-3600 "Beam" Amat Drive'
+    'Z-999 "Arc" Fusion Torch'
+    'Z-666 "Zap" Fusion Torch'
+    'Z-333 "Spark" Fusion Torch'
 
     "Enforcer Confrontation Gear"
     "Anti-Materiel Gun"

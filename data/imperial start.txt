@@ -32,6 +32,6 @@ start [<identifier>]
 
 	{condition specification...}
 		...
-	set "license: Pilot's"
+	set "license: Imperial Seal"
 	set "species: human"
-	set "tribute: eden"
+	set "tribute: Eden"

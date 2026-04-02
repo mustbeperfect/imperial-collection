@@ -7,15 +7,23 @@ Files: *
 Copyright: 2026 Lucas Julien
 License: GPL-3.0
 
-Files: images/capital-pic1.jpg
+Files: images/land/capital-pic1.jpg
 Copyright: 1990-2023 Abdelrhman
 License: CC-BY-SA-4.0
 
-Files: images/capital-pic2.jpg
+Files: images/land/capital-pic2.jpg
 Copyright: 1990-2023 Abdelrhman
 License: CC-BY-SA-4.0
 
-Files: images/privatemansion.jpg
+Files: images/land/privatemansion.jpg
+Copyright: Various
+License: public-domain
+
+Files: images/land/spaceport.png
+Copyright: David Revoy
+License: CC-BY-3.0
+
+Files: images/planet/earth.jpg
 Copyright: Various
 License: public-domain
 
