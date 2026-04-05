@@ -1,7 +1,7 @@
 <h1 align="center">The Imperial Collection</h1>
 <p align="center">Welcome, Empire.</p>
 
-![pluginpicture](https://github.com/user-attachments/assets/2364fb07-b475-4bd8-8a21-664fac401396)
+![pluginpicture](https://github.com/mustbeperfect/imperial-collection/blob/main/images/land/spaceport.png?raw=true)
 
 > [!NOTE]
 > This plugin uses assets from Mega Freight by 1010todd and Lost in Midnight by MidnightPlugins.

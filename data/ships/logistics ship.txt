@@ -62,4 +62,4 @@ ship "IC: LCC-3 Sierra"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Due to the Imperium's reliance on beam-core antimatter drives that provide immense thrust at the cost of hyperdrive fuel, this tanker has become a critical component of Imperial fleets. "
+	description "Due to the Imperium's reliance on beam-core antimatter drives for their flagships that provide immense thrust at the cost of hyperdrive fuel, this tanker has become a critical component of the Imperial presidential fleet. "
