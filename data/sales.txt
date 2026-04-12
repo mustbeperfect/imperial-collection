@@ -1,4 +1,4 @@
-shipyard "Imperial Shipyard"
+shipyard "Backup Shipyard"
     "IC: Lucerne Class"
     "IC: Claymore Class"
     "IC: FG-10 Exchanger"
@@ -12,7 +12,7 @@ shipyard "Imperial Shipyard"
     "IC: AP-22 Fusillade"
     "IC: AP-7 Sentinel"
 
-outfitter "Imperial Outfitter"
+outfitter "Backup Outfitter"
     "UREB Turret"
     "EL-1388 Aphelion Turret"
     "EMX-55 Flakcannon Turret"
@@ -31,9 +31,11 @@ outfitter "Imperial Outfitter"
     "uL4 Ion Artillery Turret"
 
     "KC-421 Parapet Anti-Missile"
-    "CMX-12 Anti Missile"
+    "CMX-12 Anti-Missile"
     "CMX-63 Kavacha Anti-Missile"
     "Q4L Pulse Anti-Missile"
+    "Wanderer Anti-Missile"
+    "Tier 3 Anti-Missile"
 
     "Teciimach Bay"
     "Finisher Pod"
@@ -41,9 +43,9 @@ outfitter "Imperial Outfitter"
     "AH-5 Eteron Launch System"
     "External Launch Rail"
     "External Launch Tube"
-    "Vertical Launch Array (9)"
-    "Vertical Launch Array (18)"
-    "Vertical Launch Array (36)"
+    "Tiny VLS"
+    "Small VLS"
+    "Medium VLS"
     "Mjolnir Launcher"
 
     "Teciimach Canister Rack"
@@ -55,11 +57,12 @@ outfitter "Imperial Outfitter"
 
     "Teciimach Canister"
     "Finisher Torpedo"
-    '"Orchid" Nuclear Missile'
-    '"Ophrys" Nuclear Torpedo'
-    '"Nettle" KKV'
+    `"Orchid" Nuclear Missile`
+    `"Ophrys" Nuclear Torpedo`
+    `"Nettle" KKV`
     "AH-5 Eteron Torpedo"
     "Mjolnir Missile"
+    "V2000 Basilisk Shell"
 
     "Jump Drive"
 
@@ -74,9 +77,9 @@ outfitter "Imperial Outfitter"
     "SCE-3 Radar Jammer"
     "Hai Octopus Jammer"
 
-    '"Veldt" Combat Scanner'
+    `"Veldt" Combat Scanner`
 
-    "Catalyric Ramscoop"
+    "Catalytic Ramscoop"
     "Wanderer Ramscoop"
     "Magnetic Scoop"
     "Plasmadyne Scoop"
@@ -93,15 +96,17 @@ outfitter "Imperial Outfitter"
     "IrdaSys Large Cinema"
     "IrdaSys Large XMX Cinema"
 
+    "Scanning Module"
+
     "Red Sun Reactor"
     "Yellow Sun Reactor"
     "White Sun Reactor"
     "Blue Sun Reactor"
     "Large Battery Module"
     "VYT Malebolge Core"
-    '"Uoret" Fusion Core'
-    '"Ryuit" Fusion Core'
-    '"Nnesa" Fusion Core'
+    `"Uoret" Fusion Core`
+    `"Ryuit" Fusion Core`
+    `"Nnesa" Fusion Core`
     "Large Reactor Module"
     "Small Reactor Module"
     "Kiirotaiyo Fusion Reactor"
@@ -120,25 +125,33 @@ outfitter "Imperial Outfitter"
     "A520 Atomic Thruster"
     "A856 Atomic Steering"
     "A860 Atomic Thruster"
-    '"Baellie" Atomic Engines'
-    '"Basrem" Atomic Steering'
-    '"Basrem" Atomic Thruster'
-    '"Basrem" Reverse Thruster'
-    '"Benga" Atomic Steering'
-    '"Benga" Atomic Thruster'
-    '"Benga" Reverse Thruster'
-    '"Biroo" Atomic Steering'
-    '"Biroo" Atomic Thruster'
-    '"Biroo" Reverse Thruster'
-    '"Bondir" Atomic Steering'
-    '"Bondir" Atomic Thruster'
-    '"Bufaer" Atomic Steering'
-    '"Bufaer" Atomic Thruster'
+    `"Baellie" Atomic Engines`
+    `"Basrem" Atomic Steering`
+    `"Basrem" Atomic Thruster`
+    `"Basrem" Reverse Thruster`
+    `"Benga" Atomic Steering`
+    `"Benga" Atomic Thruster`
+    `"Benga" Reverse Thruster`
+    `"Biroo" Atomic Steering`
+    `"Biroo" Atomic Thruster`
+    `"Biroo" Reverse Thruster`
+    `"Bondir" Atomic Steering`
+    `"Bondir" Atomic Thruster`
+    `"Bufaer" Atomic Steering`
+    `"Bufaer" Atomic Thruster`
     "GS152-Ak Fusion Engine"
-    'A-3600 "Beam" Amat Drive'
-    'Z-999 "Arc" Fusion Torch'
-    'Z-666 "Zap" Fusion Torch'
-    'Z-333 "Spark" Fusion Torch'
+    `A-3600 "Beam" Amat Drive`
+    `Z-999 "Arc" Fusion Torch`
+    `Z-666 "Zap" Fusion Torch`
+    `Z-333 "Spark" Fusion Torch`
 
     "Enforcer Confrontation Gear"
     "Anti-Materiel Gun"
+
+    "Avgi Torch License"
+    "High Houses License"
+    "Navy License"
+    "Twilight Guard License"
+    "Remnant License"
+    "Wanderer Outfits License"
+    "Heliarch License"

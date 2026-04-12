@@ -1,4 +1,5 @@
 system "Imperial Capital"
+    "jump range" 3000
 	"display name" "capital"
 	pos -375 75
 	government "Imperium"
@@ -14,7 +15,7 @@ system "Imperial Capital"
 	"no raids"
 	"starfield density" 1
 	object "Eden"
-		sprite "earth.jpg"
+		sprite "eden.jpg"
 			scale 2
 		distance 500
 		period 250

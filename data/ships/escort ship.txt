@@ -79,8 +79,6 @@ ship "IC: AP-22 Fusillade"
 	thumbnail "thumbnail/mgf syn fusillade thumb"
 	attributes
 		category "Heavy Warship"
-		licenses
-			"Syndicate Platinum"
 		"cost" 28200000
 		"shields" 25700
 		"hull" 16800

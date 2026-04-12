@@ -7,25 +7,101 @@ Files: *
 Copyright: 2026 Lucas Julien
 License: GPL-3.0
 
-Files: images/land/capital-pic1.jpg
+Files: images/land/capital1.jpg
 Copyright: 1990-2023 Abdelrhman
 License: CC-BY-SA-4.0
+Comment:
+    Taken from https://en.wikipedia.org/wiki/The_New_Capital
 
-Files: images/land/capital-pic2.jpg
+Files: images/land/capital2.jpg
 Copyright: 1990-2023 Abdelrhman
 License: CC-BY-SA-4.0
+Comment:
+    Taken from https://en.wikipedia.org/wiki/The_New_Capital
 
-Files: images/land/privatemansion.jpg
+Files: images/land/secludedmansion.jpg
 Copyright: Various
 License: public-domain
+Comment:
+    Taken from https://en.wikipedia.org/wiki/Fallingwater
 
-Files: images/land/spaceport.png
+Files: images/land/luxuryspaceport.jpg
 Copyright: David Revoy
 License: CC-BY-3.0
+Comment:
+    Taken from https://en.wikipedia.org/wiki/Star_Wars_sources_and_analogues
 
-Files: images/planet/earth.jpg
+Files: images/planet/eden.jpg
 Copyright: Various
 License: public-domain
+Comment:
+    Taken from https://en.wikipedia.org/wiki/Earth
+
+Files: images/land/uscapital.jpg
+Copyright: Dikaiosp
+License: CC BY-SA 4.0
+Comment:
+    Taken from https://en.wikipedia.org/wiki/United_States_Capitol
+
+Files: images/langsonlibrary.jpg
+Copyright: Various
+License: public-domain
+Comment:
+    Taken from https://en.wikipedia.org/wiki/University_of_California,_Irvine
+
+Files: images/orucampus.jpg
+Copyright: Dustin M. Ramsey
+License: CC BY-SA 2.5
+Comment:
+    Taken from https://en.wikipedia.org/wiki/Oral_Roberts_University
+
+Files: images/geisellibrary.jpg
+Copyright: Codera23
+License: CC BY-SA 4.0
+Comment:
+    Taken from https://en.wikipedia.org/wiki/Futurist_architecture
+
+Files: images/buzludzhamonument: jpg
+Copyright: Annboeva
+License: CC BY-SA 4.0
+Comment:
+    Taken from https://en.wikipedia.org/wiki/Buzludzha_monument
+
+Files: images/alvoradapalace.jpg
+Copyright: Ministério da Cultura
+License: CC BY 2.0
+Comment:
+    Taken from https://en.wikipedia.org/wiki/Pal%C3%A1cio_da_Alvorada
+
+Files: images/brazilcathedral.jpg
+Copyright: Rodrigo de Almeida Marfan
+License: CC BY-SA 4.0
+Comment:
+    Taken from https://en.wikipedia.org/wiki/Bras%C3%ADlia
+
+Files: images/itamaratypalace.jpg
+Copyright: Lou Mendoes
+License: CC BY-SA 4.0
+Comment:
+    Taken from https://en.wikipedia.org/wiki/Bras%C3%ADlia
+
+Files: images/jeffersonmemorial.jpg
+Copyright: Brian Hamfeldt
+License: CC BY-SA 4.0
+Comment:
+    Taken from https://en.wikipedia.org/wiki/Jefferson_Memorial
+
+Files: images/nationalcongress.jpg
+Copyright: Senado Federal
+License: CC By 2.0
+Comment:
+    Taken from https://en.wikipedia.org/wiki/National_Congress_Palace
+
+Files: images/pakistansupremecourt.jpg
+Copyright: Usman.pg
+License: CC BY-SA 3.0
+Comment:
+    Taken from https://en.wikipedia.org/wiki/Supreme_Court_of_Pakistan
 
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify

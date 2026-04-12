@@ -2,8 +2,8 @@ planet "Eden"
 	"display name" <name>
 	attributes "imperium"
 	landscape
-		capital-pic1.jpg
-		capital-pic2.jpg
+		capital1.jpg
+		capital2.jpg
 	description "Eden is the capital planet of the Imperium. Every part of the planet's geology was custom designed and built via terraforming. Eden is entirely enveloped by a physical layer. As such, the planet has three surfaces; the planetary surface itself, the interior of the outer shell, and the exterior of the shell. The outer planet is a replica of Old Earth.
 	Full control of the climate is possible through"
 	spaceport "The spaceport is impossibly large - stretching into the distance in every direction further than you can see. "
