@@ -11,6 +11,8 @@ shipyard "Imperial Shipyard"
     "IC: LCC-3 Sierra"
     "IC: AP-22 Fusillade"
     "IC: AP-7 Sentinel"
+    "IC: Spetum Class"
+    "IC: Culverin Class"
 
 outfitter "Imperial Outfitter"
     "UREB Turret"
