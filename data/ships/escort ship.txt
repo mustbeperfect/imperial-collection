@@ -22,21 +22,6 @@ ship "IC: AP-7 Sentinel"
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
-		"Proton Gun" 12
-		"Proton Turret" 1
-		"Heavy Anti-Missile Turret" 2
-		"Mjolnir Missile" 240
-		"Mjolnir Launcher" 8
-
-		"Fusion Reactor" 2
-		"LP576a Battery Pack"
-		"D67-TM Shield Generator"
-		"Liquid Nitrogen Cooler"
-		"Laser Rifle" 50
-
-		"X4700 Ion Thruster"
-		"X4200 Ion Steering"
-		"Hyperdrive"
 
 	gun -5 -179.5
 	gun 5 -179.5
@@ -50,15 +35,15 @@ ship "IC: AP-7 Sentinel"
 	gun 29 -183.5
 	gun -36 -159.5
 	gun 36 -159.5
-	gun -55 -4.5 "Mjolnir Launcher"
-	gun 55 -4.5 "Mjolnir Launcher"
-	gun -61.5 -4.5 "Mjolnir Launcher"
-	gun 61.5 -4.5 "Mjolnir Launcher"
-	gun -67 -4.5 "Mjolnir Launcher"
-	gun 67 -4.5 "Mjolnir Launcher"
-	gun -72 -4.5 "Mjolnir Launcher"
-	gun 72 -4.5 "Mjolnir Launcher"
-	turret 0 -112 "Proton Turret"
+	gun -55 -4.5
+	gun 55 -4.5
+	gun -61.5 -4.5
+	gun 61.5 -4.5
+	gun -67 -4.5
+	gun 67 -4.5
+	gun -72 -4.5
+	gun 72 -4.5
+	turret 0 -112
 	turret 0 -39
 	turret 0 11
 	engine -34.5 201.5
@@ -72,13 +57,16 @@ ship "IC: AP-7 Sentinel"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "Elite stealth escort."
+	description "ELite stealth escort."
 
-ship "IC: AP-22 Fusillade"
+
+ship "AP-22 Fusillade"
 	sprite "ship/mgf syn fusillade"
 	thumbnail "thumbnail/mgf syn fusillade thumb"
 	attributes
 		category "Heavy Warship"
+		licenses
+			"Syndicate Platinum"
 		"cost" 28200000
 		"shields" 25700
 		"hull" 16800
@@ -99,28 +87,6 @@ ship "IC: AP-22 Fusillade"
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
-		"Proton Gun" 44
-		"Proton Turret" 11
-		"Heavy Anti-Missile Turret" 8
-		"Meteor Missile Launcher" 8
-		"Meteor Missile" 240
-		"Mjolnir Missile" 240
-		"Mjolnir Launcher" 8
-
-		"Armageddon Core" 4
-		"LP576a Battery Pack"
-		"D94-YV Shield Generator" 3
-		"Large Radar Jammer" 2
-		"Liquid Helium Cooler"
-		"Brig"
-		"Laser Rifle" 500
-		"Security Station" 2
-
-		"X5700 Ion Thruster"
-		"X3700 Ion Thruster"
-		"X5200 Ion Steering"
-		"X4200 Ion Steering"
-		"Scram Drive"
 
 	gun 0 -268
 	gun -22 -250
@@ -167,42 +133,42 @@ ship "IC: AP-22 Fusillade"
 	gun 118 28
 	gun -118 28
 	gun 118 28
-	turret -28 -146 "Heavy Anti-Missile Turret"
-	turret 28 -146 "Heavy Anti-Missile Turret"
-	turret -28 -130 "Heavy Anti-Missile Turret"
-	turret 28 -130 "Heavy Anti-Missile Turret"
+	turret -28 -146
+	turret 28 -146
+	turret -28 -130
+	turret 28 -130
 	turret -20 -99
 	turret 20 -99
 	turret 0 -23
 	turret -46 58
 	turret 46 58
-	turret -46 77 "Heavy Anti-Missile Turret"
-	turret 46 77 "Heavy Anti-Missile Turret"
+	turret -46 77
+	turret 46 77
 	turret -46 92
 	turret 46 92
 	turret -60 180
 	turret 60 180
 	turret -60 207
 	turret 60 207
-	turret -60 222 "Heavy Anti-Missile Turret"
-	turret 60 222 "Heavy Anti-Missile Turret"
-	gun -137 162 "Meteor Missile Launcher"
-	gun 137 162 "Meteor Missile Launcher"
-	gun -146 162 "Meteor Missile Launcher"
-	gun 146 162 "Meteor Missile Launcher"
-	gun -157 162 "Meteor Missile Launcher"
-	gun 157 162 "Meteor Missile Launcher"
-	gun -165 162 "Meteor Missile Launcher"
-	gun 165 162 "Meteor Missile Launcher"
+	turret -60 222
+	turret 60 222
+	gun -137 162
+	gun 137 162
+	gun -146 162
+	gun 146 162
+	gun -157 162
+	gun 157 162
+	gun -165 162
+	gun 165 162
 
-	gun -137 162 "Mjolnir Launcher"
-	gun 137 162 "Mjolnir Launcher"
-	gun -146 162 "Mjolnir Launcher"
-	gun 146 162 "Mjolnir Launcher"
-	gun -157 162 "Mjolnir Launcher"
-	gun 157 162 "Mjolnir Launcher"
-	gun -165 162 "Mjolnir Launcher"
-	gun 165 162 "Mjolnir Launcher"
+	gun -137 162
+	gun 137 162
+	gun -146 162
+	gun 146 162
+	gun -157 162
+	gun 157 162
+	gun -165 162
+	gun 165 162
 	engine -70 332
 		zoom 1
 		under
@@ -225,3 +191,190 @@ ship "IC: AP-22 Fusillade"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "Massive gun platform."
+
+
+ship "MGF: Dulle Griet Class"
+	"display name" "Dulle Griet Class"
+	plural "Dulle Griet Class"
+	sprite "ship/mgf navy fastbattleship"
+	thumbnail "thumbnail/mgf navy fastbattleship thumb"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Navy Cruiser"
+		"cost" 22200000
+		"shields" 27000
+		"hull" 14800
+		"required crew" 260
+		"bunks" 360
+		"mass" 4807
+		"drag" 37.6
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 20
+		"outfit space" 3680
+		"weapon capacity" 2970
+		"engine capacity" 310
+		"vertical launching support" 8
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+
+	turret -31 -229.5
+	turret 31 -229.5
+	turret -31 -213.5
+	turret 31 -213.5
+	turret -31 -198
+	turret 31 -198
+	turret -31 -181
+	turret 31 -181
+
+	turret -26.5 -92
+	turret 26.5 -92
+	turret -26.5 -74.5
+	turret 26.5 -74.5
+
+	turret 37 -44.5
+	turret -37 -44.5
+	turret 37 -28.5
+	turret -37 -28.5
+	turret 37 -12.5
+	turret -37 -12.5
+
+	turret 29.5 73
+	turret -29.5 73
+	turret 29.5 88.5
+	turret -29.5 88.5
+	turret 29.5 104.5
+	turret -29.5 104.5
+	turret 0 351
+	#large turret
+	turret 0 -244.5
+	turret 0 -190
+	turret 0 -29
+	turret 0 14.5
+	#torp battery
+	gun -6 -338.5
+	gun 6 -338.5
+	gun -6 -333
+	gun 6 -333
+	gun -18 -333
+	gun 18 -333
+	gun -18 -339
+	gun 18 -339
+	#railguns
+	gun 58 -109
+	gun -58 -109
+	gun 58 -109
+	gun -58 -109
+	gun 68.5 -109
+	gun -68.5 -109
+	gun 68.5 -109
+	gun -68.5 -109
+	#missiles
+	gun 82.5 44
+		angle 90
+	gun -82.5 44
+		angle -90
+	gun 82.5 44
+		angle 90
+	gun -82.5 44
+		angle -90
+	gun 82.5 66
+		angle 90
+	gun -82.5 66
+		angle -90
+	gun 82.5 66
+		angle 90
+	gun -82.5 66
+		angle -90
+	engine 46.5 366
+	engine -46.5 366
+	engine -75 359
+		zoom .7
+	engine 75 359
+		zoom .7
+	bay "Pocket Light Warship" 0 267
+		"launch effect" "human internal"
+	bay "Pocket Light Warship" 0 267
+		"launch effect" "human internal"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Imperial warship."
+
+
+ship "MGF: Grose Bochse Class"
+	"display name" "Grose Bochse Class"
+	plural "Grose Bochse Class"
+	sprite "ship/mgf navy artillerybattleship"
+	thumbnail "thumbnail/mgf navy artillerybattleship thumb"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Navy Cruiser"
+		"cost" 22200000
+		"shields" 25000
+		"hull" 16200
+		"required crew" 220
+		"bunks" 330
+		"mass" 5685
+		"drag" 37.6
+		"heat dissipation" .42
+		"fuel capacity" 800
+		"cargo space" 20
+		"outfit space" 3780
+		"weapon capacity" 2980
+		"engine capacity" 310
+		"spinal mount" 1
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+
+	gun 0 -349
+
+	turret -18 -239.5
+	turret 18 -239.5
+	turret -18 -223
+	turret 18 -223
+
+	turret -32 -25
+	turret 32 -25
+	turret -32 -10
+	turret 32 -10
+	turret -32 6
+	turret 32 6
+
+	turret -32 57.5
+	turret 32 57.5
+	turret -32 73
+	turret 32 73
+	turret -32 89
+	turret 32 89
+
+	turret -19.5 283.5
+	turret 19.5 283.5
+	turret -19.5 300
+	turret 19.5 300
+	#large turret
+	turret 0 -198
+	turret 0 -58
+	engine 46.5 366
+	engine -46.5 366
+	engine -75 359
+		zoom .7
+	engine 75 359
+		zoom .7
+	description "Imperial warship."

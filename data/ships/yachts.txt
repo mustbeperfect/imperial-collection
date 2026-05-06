@@ -1,4 +1,4 @@
-ship "IC: AD-019A Iabayi"
+ship "AD-019A Iabayi"
 	sprite "ship/mgf iabayi"
 	thumbnail "thumbnail/mgf iabayi thumb"
 	attributes
@@ -22,21 +22,6 @@ ship "IC: AD-019A Iabayi"
 			"hull damage" 2000
 			"hit force" 600
 	outfits
-		"Heavy Anti-Missile Turret" 2
-		"Quad Blaster Turret" 4
-		"Torpedo Launcher" 2
-		"Torpedo" 60
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 60
-
-		"Fission Reactor"
-		"LP288a Battery Pack"
-		"D67-TM Shield Generator"
-
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"X1100 Ion Reverse Thruster" 2
-		"Scram Drive"
 
 	gun -22 -185.5
 	gun 22 -185.5
@@ -48,10 +33,10 @@ ship "IC: AD-019A Iabayi"
 	turret 29.5 -45
 		angle 45
 		arc -55 135
-	turret -29.5 -24 "Heavy Anti-Missile Turret"
+	turret -29.5 -24
 		angle -45
 		arc -135 55
-	turret 29.5 -24 "Heavy Anti-Missile Turret"
+	turret 29.5 -24
 		angle 45
 		arc -55 135
 	turret -36 57
@@ -72,4 +57,4 @@ ship "IC: AD-019A Iabayi"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
-	description `Your personal stealth yacht. Equipped for defense and speed while still making room for a luxury theater and pool.`
+	description `Imperial yacht.`

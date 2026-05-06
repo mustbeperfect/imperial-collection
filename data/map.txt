@@ -1,7 +1,3 @@
-planet "Eden"
+planet "Hermes"
 	add shipyard "Imperial Shipyard"
 	add outfitter "Imperial Outfitter"
-
-planet "Hermes"
-    add shipyard "Backup Shipyard"
-    add outfitter "Backup Outfitter"

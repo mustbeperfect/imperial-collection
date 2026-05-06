@@ -1,4 +1,4 @@
-ship "IC: LCC-3 Sierra"
+ship "LCC-3 Sierra"
 	sprite "ship/mgf sierra tanker"
 	attributes
 		category "Heavy Freighter"
@@ -21,18 +21,6 @@ ship "IC: LCC-3 Sierra"
 			"hull damage" 600
 			"hit force" 1800
 	outfits
-		"Proton Turret" 3
-		"Heavy Anti-Missile Turret" 2
-
-		"Fission Reactor"
-		"Liquid Nitrogen Cooler"
-		"LP144a Battery Pack"
-		"D23-QP Shield Generator"
-		"Laser Rifle" 4
-
-		"A525 Atomic Steering"
-		"A370 Atomic Thruster"
-		"Scram Drive"
 
 	turret 0 -150.5
 		arc -175 175
@@ -62,4 +50,212 @@ ship "IC: LCC-3 Sierra"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Due to the Imperium's reliance on beam-core antimatter drives for their flagships that provide immense thrust at the cost of hyperdrive fuel, this tanker has become a critical component of the Imperial presidential fleet. "
+	description "Imperial tanker."
+
+
+ship "CDB-12K Saturn"
+	sprite "ship/mgf saturn"
+	thumbnail "thumbnail/mgf saturn thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 61900000
+		"shields" 18600
+		"hull" 16400
+		"required crew" 55
+		"bunks" 67
+		"mass" 26880
+		"drag" 13.1
+		"heat dissipation" .35
+		"fuel capacity" 1500
+		"cargo space" 4500
+		"outfit space" 930
+		"weapon capacity" 570
+		"engine capacity" 250
+		"bulk bay" 12
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+
+	turret 0 -347.5
+		arc -140 140
+	turret -38 -346
+		arc -160 70
+	turret 38 -346
+		arc -70 160
+	turret -78 -327
+		arc -160 50
+	turret 78 -327
+		arc -50 160
+	turret -122 -134
+		angle -90
+		arc -90 90
+	turret 122 -134
+		angle 90
+		arc -90 90
+	turret -122 22
+		angle -90
+		arc -90 90
+	turret 122 22
+		angle 90
+		arc -90 90
+	turret -122 177
+		angle -90
+		arc -90 90
+	turret 122 177
+		angle 90
+		arc -90 90
+	turret 0 285
+		angle 180
+		arc -130 130
+	gun -117.5 -356
+	gun 117.5 -356
+	gun -104 -361
+	gun 104 -361
+	engine -82.5 335.5
+		zoom 1.6
+	engine 82.5 335.5
+		zoom 1.6
+	engine 0 392.5
+		zoom .9
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Imperial pocket freighter."
+
+
+ship "FG-7 Conveyor"
+	sprite "ship/mgf conveyor"
+	thumbnail "thumbnail/mgf conveyor"
+	attributes
+		category "Heavy Freighter"
+		"cost" 52200000
+		"shields" 13800
+		"hull" 13200
+		"required crew" 45
+		"bunks" 80
+		"mass" 12420
+		"drag" 24
+		"heat dissipation" .5
+		"fuel capacity" 1400
+		"cargo space" 2000
+		"outfit space" 1120
+		"weapon capacity" 550
+		"engine capacity" 245
+		"mgf fast unload" -7
+		"mgf fast unload slot" 7
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"MGF: Fast Unloading" 7
+
+	turret -36.5 -266
+		angle -15
+		arc -105 150
+	turret 36.5 -266
+		angle 15
+		arc -105 150
+	turret 0 -173
+		angle 0
+		arc -165 165
+	turret -25.5 -89.5
+		angle -45
+		arc -75 40
+	turret 25.5 -89.5
+		angle 45
+		arc -40 75
+	turret -25 -68
+		angle -45
+		arc -80 40
+	turret 25 -68
+		angle 45
+		arc -40 80
+	turret -56 12
+		angle -90
+		arc -100 100
+	turret 56 12
+		angle 90
+		arc -100 100
+	turret -29 63
+		angle -90
+		arc -5 85
+	turret 29 63
+		angle 90
+		arc -85 5
+	turret -36 144
+		angle -90
+		arc -52 62
+	turret 36 144
+		angle 90
+		arc -62 52
+	turret -40 225
+		angle -90
+		arc -62 82
+	turret 40 225
+		angle 90
+		arc -62 82
+	turret -63 285
+		angle -90
+		arc -110 89
+	turret 63 285
+		angle 90
+		arc -89 110
+	bay "Fighter" -95 12
+		"launch effect" "human internal"
+		left
+	bay "Fighter" 95 12
+		"launch effect" "human internal"
+		right
+	bay "Fighter" -95 12
+		"launch effect" "human internal"
+		left
+	bay "Fighter" 95 12
+		"launch effect" "human internal"
+		right
+	bay "Fighter" -95 12
+		"launch effect" "human internal"
+		left
+	bay "Fighter" 95 12
+		"launch effect" "human internal"
+		right
+	bay "Fighter" -95 12
+		"launch effect" "human internal"
+		left
+	bay "Fighter" 95 12
+		"launch effect" "human internal"
+		right
+	engine -38.5 347
+		zoom 1
+		angle 0
+		under
+	engine 38.5 347
+		zoom 1
+		angle 0
+		under
+	engine -25.5 331.5
+		zoom .7
+		angle 0
+		over
+	engine 25.5 331.5
+		zoom .7
+		angle 0
+		over
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Massive imperial freighter."
