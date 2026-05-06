@@ -125,7 +125,7 @@ outfitter "Imperial Outfitter"
     "A375 Atomic Thruster"
     "A525 Atomic Steering"
     "A520 Atomic Thruster"
-    "A856 Atomic Steering"
+    "A865 Atomic Steering"
     "A860 Atomic Thruster"
     `"Baellie" Atomic Engines`
     `"Basrem" Atomic Steering`

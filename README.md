@@ -29,7 +29,7 @@ Superheavy pocket freighters:
 
 ### Changes (Superheavy)
 - New shield values were determined by taking the ratio of hull to shields for the Republic Carrier and scaling them up to the superheavy's hull.
-- All fighter bays, pocket light warship bays, and pocket medium warship bays have been converted to pocket superheavy warship bays to reduce micromanagement. The conversation rate is as follows: FIGHTER:SUPERHEAVY = 60:1, LIGHT:SUPERHEAVY = 12:1, MEDIUM:SUPERHEAVY = 4:1, HEAVY:SUPERHEAVY = 2:1
+- All fighter bays, pocket light warship bays, and pocket medium warship bays have been converted to pocket superheavy warship bays to reduce micromanagement. The conversation rate is as follows: DRONE (100), FIGHTER:SUPERHEAVY (150) = 60:1, LIGHT:SUPERHEAVY = 12:1, MEDIUM:SUPERHEAVY = 4:1, HEAVY:SUPERHEAVY = 2:1
 
 ### Changes (Pocket Superheavy)
 - Any pocket bays were converted to outfit space.
