@@ -1,4 +1,4 @@
-ship "LCC-3 Sierra"
+ship "IC: LCC-3 Sierra"
 	sprite "ship/mgf sierra tanker"
 	attributes
 		category "Heavy Freighter"
@@ -53,7 +53,7 @@ ship "LCC-3 Sierra"
 	description "Imperial tanker."
 
 
-ship "CDB-12K Saturn"
+ship "IC: CDB-12K Saturn"
 	sprite "ship/mgf saturn"
 	thumbnail "thumbnail/mgf saturn thumb"
 	attributes
@@ -131,7 +131,7 @@ ship "CDB-12K Saturn"
 	description "Imperial pocket freighter."
 
 
-ship "FG-7 Conveyor"
+ship "IC: FG-7 Conveyor"
 	sprite "ship/mgf conveyor"
 	thumbnail "thumbnail/mgf conveyor"
 	attributes

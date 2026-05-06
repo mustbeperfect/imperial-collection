@@ -1,4 +1,4 @@
-ship "MGF: Lucerne Class"
+ship "IC: Lucerne Class"
 	"display name" "Lucerne Class"
 	plural "Lucerne Class"
 	sprite "ship/mgf navy supercarrier"
@@ -1114,7 +1114,7 @@ ship "MGF: Lucerne Class"
 	description `Imperial superheavy warship.`
 
 
-ship "MGF: Claymore Class"
+ship "IC: Claymore Class"
 	"display name" "Claymore Class"
 	plural "Claymore Class"
 	sprite "ship/mgf navy superbattleship"

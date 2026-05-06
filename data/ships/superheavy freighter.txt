@@ -1,4 +1,4 @@
-ship "FG-10 Exchanger"
+ship "IC: FG-10 Exchanger"
 	sprite "ship/mgf exchanger"
 	thumbnail "thumbnail/mgf exchanger thumb"
 	attributes
@@ -285,7 +285,7 @@ ship "FG-10 Exchanger"
 	description `Imperial superheavy freighter.`
 
 
-ship "K-Class Ultra Container Ship"
+ship "IC: K-Class Ultra Container Ship"
 	sprite "ship/mgf syn kclass ultra container"
 	thumbnail "thumbnail/mgf syn kclass ultra container thumb"
 	attributes

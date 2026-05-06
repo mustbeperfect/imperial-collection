@@ -60,7 +60,7 @@ ship "IC: AP-7 Sentinel"
 	description "ELite stealth escort."
 
 
-ship "AP-22 Fusillade"
+ship "IC: AP-22 Fusillade"
 	sprite "ship/mgf syn fusillade"
 	thumbnail "thumbnail/mgf syn fusillade thumb"
 	attributes
@@ -193,7 +193,7 @@ ship "AP-22 Fusillade"
 	description "Massive gun platform."
 
 
-ship "MGF: Dulle Griet Class"
+ship "IC: Dulle Griet Class"
 	"display name" "Dulle Griet Class"
 	plural "Dulle Griet Class"
 	sprite "ship/mgf navy fastbattleship"
@@ -313,7 +313,7 @@ ship "MGF: Dulle Griet Class"
 	description "Imperial warship."
 
 
-ship "MGF: Grose Bochse Class"
+ship "IC: Grose Bochse Class"
 	"display name" "Grose Bochse Class"
 	plural "Grose Bochse Class"
 	sprite "ship/mgf navy artillerybattleship"

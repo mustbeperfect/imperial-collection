@@ -1,4 +1,4 @@
-ship "AD-019A Iabayi"
+ship "IC: AD-019A Iabayi"
 	sprite "ship/mgf iabayi"
 	thumbnail "thumbnail/mgf iabayi thumb"
 	attributes
