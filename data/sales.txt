@@ -87,6 +87,8 @@ outfitter "Imperial Outfitter"
     "Plasmadyne Scoop"
 
     "Cryogenic Deuterium Tank"
+    "Fuel Module"
+    "Deuterium Slush Tank"
 
     "Elion Compact Pool"
     "Elion Medium Pool"
