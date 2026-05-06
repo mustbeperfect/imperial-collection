@@ -473,7 +473,7 @@ ship "IC: Culverin Class"
 	description "Imperial warship."
 
 
-	ship "IC: Spetum Class"
+ship "IC: Spetum Class"
 	"display name" "Spetum Class"
 	plural "Spetum Class"
 	sprite "ship/mgf navy fleetcarrier"
@@ -839,4 +839,4 @@ ship "IC: Culverin Class"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large" 2
-	description `Imperial warship.`
+	description "Imperial warship."
