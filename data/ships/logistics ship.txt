@@ -259,3 +259,101 @@ ship "IC: FG-7 Conveyor"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "Massive imperial freighter."
+
+
+ship "IC: TS-1L260 Mieusbar"
+	sprite "ship/mgf mieusbar"
+	thumbnail "thumbnail/mgf mieusbar thumb"
+	attributes
+		category "Space Liner"
+		"cost" 32000000
+		"shields" 14900
+		"hull" 9800
+		"required crew" 56
+		"bunks" 766
+		"mass" 5852
+		"drag" 22.2
+		"heat dissipation" .6
+		"fuel capacity" 1600
+		"cargo space" 100
+		"outfit space" 1148
+		"weapon capacity" 678
+		"engine capacity" 182
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+
+	gun -57 -300.5
+	gun 57 -300.5
+	gun -57 -300.5
+	gun 57 -300.5
+	gun -57 -300.5
+	gun 57 -300.5
+	turret -62 -261.5
+		angle -45
+		arc -121 75
+	turret 62 -261.5
+		angle 45
+		arc -75 121
+	turret -62 -220.5
+		angle -45
+		arc -121 75
+	turret 62 -220.5
+		angle 45
+		arc -75 121
+	turret -78 -142
+		angle -45
+		arc -121 75
+	turret 78 -142
+		angle 45
+		arc -75 121
+	turret -78 -102
+		angle -45
+		arc -121 75
+	turret 78 -102
+		angle 45
+		arc -75 121
+	turret 0 -66
+		arc -167 167
+	turret -79 98.5
+		angle -45
+		arc -126 95
+	turret 79 98.5
+		angle 45
+		arc -95 126
+	turret -79 132.5
+		angle -90
+		arc -160 135
+	turret 79 132.5
+		angle 90
+		arc -135 160
+	turret -133.5 132
+		angle -90
+		arc -110 110
+	turret 133.5 132
+		angle 90
+		arc -110 110
+	turret -133.5 165.5
+		angle -90
+		arc -110 110
+	turret 133.5 165.5
+		angle 90
+		arc -110 110
+	engine -97 285.5
+	engine 97 285.5
+	engine -37 306.5
+		zoom .8
+	engine 37 306.5
+		zoom .8
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description `Imperial space liner.`

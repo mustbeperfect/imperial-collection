@@ -13,6 +13,7 @@ shipyard "Imperial Shipyard"
     "IC: AP-7 Sentinel"
     "IC: Spetum Class"
     "IC: Culverin Class"
+    "IC: TS-1L260 Mieusbar"
 
 outfitter "Imperial Outfitter"
     "UREB Turret"
