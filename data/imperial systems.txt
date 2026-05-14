@@ -1,0 +1,87 @@
+system "Imperial Staging"
+	"display name" "Staging"
+	pos -425 75
+	government "Imperium"
+	attributes "Imperial"
+	arrival
+		link 100
+		jump 100
+	departure
+		link 100
+		jump 100
+	ramscoop
+		universal 1
+		addend 0
+		multiplier 1
+	habitable 1000
+	belt 10000
+	"invisible fence" 10000
+	"jump range" 1000
+	link "Sol"
+	fleet <name> <period#>
+		[to spawn]
+			<condition> <comp> <value>
+			(has | not) <condition>
+			never
+			(and | or)
+				...
+	"starfield density" 1
+	object [<name>]
+		sprite <sprite>
+			scale <scale#>
+		distance <distance#>
+		period <period#>
+		offset <offset#>
+		hazard <name> <period#>
+			[to spawn]
+				<condition> <comp> <value>
+				(has | not) <condition>
+				never
+				(and | or)
+					...
+		object [<name>]
+			...
+
+system "Imperial Capitol"
+	"display name" "Capitol"
+	pos -475 50
+	government "Imperium"
+	attributes "Imperial"
+	arrival
+		link 100
+		jump 100
+	departure
+		link 100
+		jump 100
+	ramscoop
+		universal 1
+		addend 0
+		multiplier 1
+	habitable 1000
+	belt 10000
+	"invisible fence" 10000
+	"jump range" 1000
+	link "Imperial Staging"
+	fleet <name> <period#>
+		[to spawn]
+			<condition> <comp> <value>
+			(has | not) <condition>
+			never
+			(and | or)
+				...
+	"starfield density" 1
+	object [<name>]
+		sprite <sprite>
+			scale <scale#>
+		distance <distance#>
+		period <period#>
+		offset <offset#>
+		hazard <name> <period#>
+			[to spawn]
+				<condition> <comp> <value>
+				(has | not) <condition>
+				never
+				(and | or)
+					...
+		object [<name>]
+			...
