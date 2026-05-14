@@ -1,0 +1,22 @@
+government "Imperium"
+	"display name" "Imperium"
+	swizzle 0
+	color (0 0 0)
+	reputation
+		"player reputation" 1000
+		min 1000
+		max 1000
+	"crew attack" 5
+	"crew defense" 5
+	"attitude toward"
+		"Republic" 1
+		"Syndicate" 1
+		"Free Worlds" 1
+	"default attitude" 0
+	"send untranslated hails"
+	"friendly hail" "Empire, we protect and serve the Imperium."
+	"friendly disabled hail" "Imperial ship down."
+	"tribute hails"
+		"already paying" "We serve the Imperium."
+	enforces
+		government "Imperium"
