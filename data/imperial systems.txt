@@ -42,8 +42,8 @@ system "Imperial Staging"
 		object [<name>]
 			...
 
-system "Imperial Capitol"
-	"display name" "Capitol"
+system "Imperial Capital"
+	"display name" "Capital"
 	pos -475 50
 	government "Imperium"
 	attributes "Imperial"
@@ -70,18 +70,8 @@ system "Imperial Capitol"
 			(and | or)
 				...
 	"starfield density" 1
-	object [<name>]
-		sprite <sprite>
-			scale <scale#>
-		distance <distance#>
-		period <period#>
-		offset <offset#>
-		hazard <name> <period#>
-			[to spawn]
-				<condition> <comp> <value>
-				(has | not) <condition>
-				never
-				(and | or)
-					...
-		object [<name>]
-			...
+	object "The Capital"
+		sprite planet/eden.png
+			scale 1
+		distance 25
+		period 10
