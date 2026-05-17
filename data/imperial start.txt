@@ -1,0 +1,38 @@
+start "imperial"
+	name "Imperial Start"
+	[remove name]
+	[add] description <text>
+	[remove description]
+	thumbnail icon.png
+	date 01 01 3010
+	system "Caelum"
+	planet "Eden"
+	[add] account
+		credits 1000000000000
+		maintenance <amount#>
+		score 800
+	conversation <name>
+	conversation
+		{conversation specification...}
+	[remove conversation]
+	ship <model>
+		{ship specification...}
+	[remove ships]
+	[remove ship <model>]
+
+	{condition specification...}
+		...
+	[remove conditions]
+	[remove] to (display | reveal | unlock)
+		<condition-set>
+	on (display | reveal)
+		name <name>
+		description <text>
+		thumbnail <pathname>
+		system <name>
+		planet <name>
+	set "license: Imperial Seal"
+	set "species: human"
+	set "human space start"
+	set "start: imperial"
+	set "tribute: The Capital"

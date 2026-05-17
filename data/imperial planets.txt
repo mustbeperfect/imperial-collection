@@ -1,20 +1,18 @@
-planet "The Capital"
+planet "capital"
 	"display name" "The Capital"
 	attributes "imperial"
-	landscape <sprite>...
-		land/capital1.jpg 1
-		land/capital2.jpg 1
+	landscape
+		land/capital1 1
+		land/capital2 1
 	description "The Capital planet of the Imperium. Every part of the planet's geology was custom designed and built with terraforming. It's entirely enveloped by a physical layer. As such, the planet has three surfaces; the planetary surface, the interior of the outer shell, and the exterior of the shell. Enveloping both the planet and the outer shell is are two perpendicular rings."
 	spaceport "The spaceport lies inside the inner ring and is impossibly large, stretching far into the distance in every direction. "
-	to land
-		license "Imperial Seal"
 	port "Capital Port"
 		recharges
 		services
 	government "Imperium"
 	shipyard "Imperial Shipyard"
 	outfitter "Imperial Outfitter"
-	"required reputation" 1
+	"required reputation" 0
 	security 1
 	tribute -100000000
 		threshold 1000

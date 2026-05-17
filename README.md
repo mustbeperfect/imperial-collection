@@ -9,7 +9,7 @@
 # About
 You are Empire, trillionare and head of the Imperium. The Imperium isn't technically a government as there are no citizens, but it serves as the umbrella entity for your assets and private military. These assets include private planets and stations scattered across the galaxy as well as custom ships. There's also new trillionare related missions, including some that run alongside major events in the galaxy. You can also use the job board on your capital planet, Eden, to communicate with your advisors and send orders to your military.
 
-The Imperial Start gives you the full experience, there will likely be issues with other starts. By default you own your planets (via tribute). Keep in mind that operating costs run in the hundreds of millions per day, although you, by default, also have a colossal salary to account for invesments and business profits. The Galactic Capital Investment plugin by Zuckung is heavily reccomended when dealing with these large sums of money. Relinquishing tribute to your planets will cause those planets to be seized by the Republic.
+The Imperial Start gives you the full experience, there will likely be issues with other starts. By default you own your planets (via tribute). Keep in mind that operating costs run in the tens of billions per day, although you, by default, also have a colossal salary to account for investments and business profits. The Galactic Capital Investment plugin by Zuckung is heavily reccomended when dealing with these large sums of money. 
 
 Superheavy warships:
 - Claymore Class

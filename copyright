@@ -31,9 +31,9 @@ License: CC-BY-3.0
 Comment:
     Taken from https://en.wikipedia.org/wiki/Star_Wars_sources_and_analogues
 
-Files: images/planet/eden.jpg
-Copyright: Various
-License: public-domain
+Files: images/planet/thecapital.png
+Copyright: European Organisation for the Exploitation of Meteorological Satellites
+License: Attribution
 Comment:
     Taken from https://en.wikipedia.org/wiki/Earth
 
@@ -102,6 +102,12 @@ Copyright: Usman.pg
 License: CC BY-SA 3.0
 Comment:
     Taken from https://en.wikipedia.org/wiki/Supreme_Court_of_Pakistan
+
+Files: images/capitalmoon.png
+Copyright: ESO/M. Kornmesser/N. Risinger (skysurvey.org)
+License: CC BY 4.0
+Comment:
+    Taken from https://en.wikipedia.org/wiki/Mars
 
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify

@@ -1,0 +1,7 @@
+outfit "Imperial Seal"
+	category "Licenses"
+	series "Licenses"
+	index 11111
+	cost 10000000
+	thumbnail "outfit/imperial license"
+	description "The staple of Empire."

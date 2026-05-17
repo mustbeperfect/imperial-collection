@@ -1,6 +1,6 @@
 system "Imperial Staging"
 	"display name" "Staging"
-	pos -425 75
+	pos -425 60
 	government "Imperium"
 	attributes "Imperial"
 	arrival
@@ -44,15 +44,15 @@ system "Imperial Staging"
 
 system "Imperial Capital"
 	"display name" "Capital"
-	pos -475 50
+	pos -475 35
 	government "Imperium"
 	attributes "Imperial"
 	arrival
-		link 100
-		jump 100
+		link 10
+		jump 10
 	departure
-		link 100
-		jump 100
+		link 10
+		jump 10
 	ramscoop
 		universal 1
 		addend 0
@@ -70,8 +70,8 @@ system "Imperial Capital"
 			(and | or)
 				...
 	"starfield density" 1
-	object "The Capital"
-		sprite planet/eden.png
+	object capital
+		sprite planet/thecapital
 			scale 1
 		distance 25
 		period 10
